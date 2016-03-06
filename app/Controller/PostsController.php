@@ -8,6 +8,22 @@
 
 class PostsController extends AppController {
    // public $autoRender = false;
+    public function isAuthorized($user) {
+        // All registered users can add posts
+        if ($this->action === 'add') {
+            return true;
+        }
+
+        // The owner of a post can edit and delete it
+        if (in_array($this->action, array('edit', 'delete'))) {
+            $postId = (int) $this->request->params['pass'][0];
+            if ($this->Post->isOwnedBy($postId, $user['id'])) {
+                return true;
+            }
+        }
+
+        return parent::isAuthorized($user);
+    }
     public function index() {
    
         $this->set('posts',$this->Post->find('all'));
@@ -31,7 +47,9 @@ class PostsController extends AppController {
     
     public function add() {
         if ($this->request->isPost()) {
-             $this->Post->create();
+             //$this->Post->create();
+            //Autotização 
+             $this->request->data['Post']['user_id'] = $this->Auth->user('id');
              if ($this->Post->save($this->request->data)) {
                 $this->Flash->success(__('Postagem Enviada.'));
                 return $this->redirect(array('action' => 'index'));
@@ -53,7 +71,7 @@ class PostsController extends AppController {
     }
     
    
-    pr($this->Post->Categorias->find('list'));
+   // pr($this->Post->Categorias->find('list'));
     
   //  exit;
     

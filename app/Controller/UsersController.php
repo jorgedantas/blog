@@ -85,7 +85,7 @@ class UsersController extends AppController {
         if ($this->request->is('post')) {
            
             if ($this->Auth->login()) {
-                return $this->redirect(array('controller' => 'posts'));
+                return $this->redirect($this->Auth->redirectUrl());
             }
             $this->Flash->error(__('Usuário ou senha inválida'));
         }

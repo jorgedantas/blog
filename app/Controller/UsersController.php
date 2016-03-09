@@ -12,9 +12,9 @@ class UsersController extends AppController {
     public function beforeFilter() {
         parent::beforeFilter();
         // Allow users to register and logout.
-        $this->Auth->allow('add', 'logout');
+        $this->Auth->allow('login', 'logout');
     }
-
+    
     public function index() {
         $this->User->recursive = 0;
         $this->set('users', $this->paginate());
@@ -85,7 +85,7 @@ class UsersController extends AppController {
         if ($this->request->is('post')) {
            
             if ($this->Auth->login()) {
-                return $this->redirect(array('controller' => 'Posts'));
+                return $this->redirect($this->Auth->redirectUrl());
             }
             $this->Flash->error(__('Usuário ou senha inválida'));
         }

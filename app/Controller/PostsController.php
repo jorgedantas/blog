@@ -8,6 +8,14 @@
 
 class PostsController extends AppController {
    // public $autoRender = false;
+    
+    //public function beforeFilter(){ 
+    //cada posição do array será uma ação publica 
+    //$this->Auth->allow = array('add','areaPublica'); 
+    //}
+
+
+
     public function isAuthorized($user) {
         // All registered users can add posts
         if ($this->action === 'add') {

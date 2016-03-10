@@ -10350,3 +10350,1741 @@ Stack Trace:
 #1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
 #2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-03-10 00:39:43 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:39:43 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/move-top.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/bootstrap.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/easing.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:39 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:40 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:40:40 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/move-top.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/bootstrap.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/easing.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:41:23 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/bootstrap.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/move-top.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/easing.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:30 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:31 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:31 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/bootstrap.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/move-top.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/easing.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:32 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/bootstrap.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/move-top.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/easing.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:41 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/bootstrap.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/move-top.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/js/easing.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/gen2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/pic3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:46:58 Error: [MissingActionException] Action UsersController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'app',
+)
+Request URL: /blog/users/app/webroot/img/f1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:47:04 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:47:04 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:49:27 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:49:27 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:49:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:49:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:49:50 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:49:50 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:50:44 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:50:44 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:51:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:51:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:51:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:51:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:51:50 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:51:50 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:51:59 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:51:59 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:54:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:54:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:54:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:54:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:54:46 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:54:46 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:54:53 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:54:53 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:55:59 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:55:59 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:56:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:56:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:56:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:56:18 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:56:21 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:56:21 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 00:58:37 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 00:58:37 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 00:59:22 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 00:59:22 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 00:59:35 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 00:59:35 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 00:59:37 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 00:59:37 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 00:59:44 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 00:59:44 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 01:00:05 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 01:00:05 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 01:00:07 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 01:00:07 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 01:00:07 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 01:00:07 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 01:00:07 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 01:00:07 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 01:00:07 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 01:00:07 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 01:00:08 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 01:00:08 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 01:00:08 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 44]
+2016-03-10 01:00:08 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-10 01:00:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:00:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:00:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:00:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:00:32 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:00:32 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:01:34 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:01:34 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:01:54 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:01:55 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:03:04 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:03:04 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:03:31 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /blog/users/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-10 01:04:49 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:04:49 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:05:20 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:05:20 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:05:35 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:05:35 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:06:27 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/icons.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-10 01:06:27 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /blog/app/webroot/images/move-top.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

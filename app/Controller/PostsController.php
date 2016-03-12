@@ -86,11 +86,7 @@ class PostsController extends AppController {
 //    }
 
         $post = $this->Post->findById($id);
-       
-        $this->set('categorias',['Selecione uma categoria'] +$this->Post->Categoria->find('list', array(
-             'fields' => array('Categoria.id','Categoria.nome'))
-
-         ));
+     
     
 //    if (!$post) {
 //        throw new NotFoundException(__('Postagem Inválida'));

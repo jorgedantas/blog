@@ -2,23 +2,41 @@
 
 <p><small>Created: <?php echo $post['Post']['created']; ?></small></p>
 
-<p><?php echo h($post['Post']['corpo']); ?></p>
+<p><?php echo ($post['Post']['corpo']); ?></p>
 
-<div id="comentarios">
+<!--<div id="comentarios">
     <ol>
-    <?php foreach ($post['Comentario'] as $comentario): ?> 
+    <?php// foreach ($post['Comentario'] as $comentario): ?> 
     <li>
-    <div>Nome : <?= $comentario['nome'] ?> </div>
-    <div>Email : <?= $comentario['email'] ?></div>
-    <div>Comentário : <?= $comentario['corpo'] ?></div>
+    <div>Nome : <?//= $comentario['nome'] ?> </div>
+    <div>Email : <?//=$comentario['email'] ?></div>
+    <div>Comentário : <?//= $comentario['corpo'] ?></div> 
+ 
     </li>
     
-    <?php endforeach ?>
+    <?php //endforeach ?>
     </ol>
-</div>
+</div>-->
 
+<ol>
+<?php 
+foreach ($post['Comentario'] as $comentario):
+    
+    echo $this->Form->create('Comentario', ['url' => ['controller' => 'Comentarios', 'action' => 'edit']
+]); ?>
+<li>
+    <div>Nome : <?= $comentario['nome'] ?> </div>
+    <div>Email : <?= $comentario['email'] ?></div>
+    <div>Comentário : <?= $comentario['corpo'] ?></div> 
+ 
+</li>
+
+<?php echo $this->Form->input('ativo', array('type'=>'checkbox','checked'=>true)); echo $this->Form->input('id', array('type' => 'hidden')); ?>
+<?php endforeach ?>
+</ol>
 
 <?php 
+
 
 echo $this->Form->create('Comentario', [
     'url' => ['controller' => 'Comentarios', 'action' => 'add']
@@ -31,3 +49,4 @@ echo $this->Form->hidden('post_id', array('value' => $post['Post']['id']));
 echo $this->Form->end('Enviar');
 
 ?>
+

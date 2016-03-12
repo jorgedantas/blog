@@ -6,5 +6,15 @@ class Comentario extends AppModel {
         'email' => 'notEmpty',
         'corpo' => 'notEmpty'
         );
-    public $belongesTo = ['Post'];
+    
+   // public $belongesTo = ['Post'];
+    
+     public $belongsTo = array(
+        'Post' => array(
+            'className' => 'Post',
+            'foreignKey' => 'post_id'
+        )
+    );
 }
+
+

@@ -13,8 +13,8 @@ class CategoriasController  extends AppController {
        
        $this->set('categorias',$this->Categoria->find('all'));
        
-       pr($this->Categoria->find('all'));
-       exit;
+       //pr($this->Categoria->find('all'));
+       //exit;
    } 
    
    public function add() {
@@ -28,7 +28,7 @@ class CategoriasController  extends AppController {
                 $this->Flash->success(__('Categoria criada com sucesso.'));
                 return $this->redirect(array(
                     'controller' => 'Categorias',
-                    'action' => 'index'
+                    'action' => 'add'
                     
                     ));
              }

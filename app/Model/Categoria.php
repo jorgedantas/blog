@@ -6,4 +6,5 @@ class Categoria extends AppModel {
     );
     
     public $hasMany = ['Post'];
+    
 }

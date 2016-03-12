@@ -9,16 +9,7 @@
 class PostsController extends AppController {
    // public $autoRender = false;
     
-     public $components = ['Upload'];
  
-    //public function beforeFilter(){ 
-    //cada posição do array será uma ação publica 
-    //$this->Auth->allow = array('add','areaPublica'); 
-    //}
-    //public function upload() {
-      //  
-    //}
-     
     public function isAuthorized($user) {
         // All registered users can add posts
         if ($this->action === 'add') {
@@ -36,30 +27,11 @@ class PostsController extends AppController {
         return parent::isAuthorized($user);
     }
     public function index() {
-   
+       //echo  pr($this->Post->find('all'));
+      //exit();
         $this->set('posts',$this->Post->find('all'));
     }
-   
-//    public function upload($imagem , $dir = 'img')
-//    {
-//        // pr('$imagem');
-//   
-//    //exit();
-//        $dir = WWW_ROOT.$dir.DS;
-//
-//        if(($imagem['error']!=0) and ($imagem['size']==0)) {
-//            throw new NotImplementedException('Alguma coisa deu errado, o upload retornou erro '.$imagem['error'].' e tamanho '.$imagem['size']);
-//        }
-//
-//        $this->checa_dir($dir);
-//
-//        $imagem = $this->checa_nome($imagem, $dir);
-//
-//        $this->move_arquivos($imagem, $dir);
-//
-//        return $imagem['name'];
-//    }
-
+  
     public function view($id) {
         if (!$id) {
             throw new NotFoundException(__('Invalid post'));
@@ -73,25 +45,28 @@ class PostsController extends AppController {
     }
     
     public function add() {
-        $this->set('categorias',$this->Post->Categoria->find('list', array(
-        'fields' => array('Categoria.nome'),
-        'recursive' => 0)
+        $this->set('categorias',['Selecione uma categoria'] + $this->Post->Categoria->find('list', array(
+        'fields' => array('Categoria.id','Categoria.nome')
+        )
     
         ));
      
+ 
+        if ($this->request->isPost()) {
+          //  echo pr($this->request->data['Post']);
+           // exit();
         
          
-        if ($this->request->isPost()) {
-           // echo pr($this->request->data);
-            //exit();
-         //   if( !empty($this->request->data)){
-          //  $this->Upload->upload($this->request->data['Img']);
-      //  }
-           //  $this->Post->create();
             //Autotização 
            
              $this->request->data['Post']['user_id'] = $this->Auth->user('id');
+             
              if ($this->Post->save($this->request->data)) {
+//                $log = $this->Post->getDataSource()->getLog(false, false);
+//                debug($log);
+//                exit();
+                 // echo pr($this->request->data);
+                 // exit();
                 $this->Flash->success(__('Postagem Enviada.'));
                 return $this->redirect(array('action' => 'index'));
              }
@@ -101,21 +76,25 @@ class PostsController extends AppController {
     
    public function edit($id = null) {
        
-       
-    if (!$id) {
-        throw new NotFoundException(__('Postagem Inválida'));
-    }
+        $this->Post->id = $id;
+        $this->set('categorias',['Selecione uma categoria'] +$this->Post->Categoria->find('list', array(
+             'fields' => array('Categoria.id','Categoria.nome'))
+         ));
+        
+//    if (!$id) {
+//        throw new NotFoundException(__('Postagem Inválida'));
+//    }
 
-    $post = $this->Post->findById($id);
-   $this->set('categorias',$this->Post->Categoria->find('list', array(
-        'fields' => array('Categoria.nome'),
-        'recursive' => 0)
+        $post = $this->Post->findById($id);
+       
+        $this->set('categorias',['Selecione uma categoria'] +$this->Post->Categoria->find('list', array(
+             'fields' => array('Categoria.id','Categoria.nome'))
+
+         ));
     
-    ));
-    
-    if (!$post) {
-        throw new NotFoundException(__('Postagem Inválida'));
-    }
+//    if (!$post) {
+//        throw new NotFoundException(__('Postagem Inválida'));
+//    }
     
    
    // pr($this->Post->Categorias->find('list'));
@@ -123,9 +102,11 @@ class PostsController extends AppController {
   //  exit;
     
     if ($this->request->is(array('post', 'put'))) {
-        $this->Post->id = $id;
-        
+       
         if ($this->Post->save($this->request->data)) {
+             // echo pr($this->request->data);
+            //  exit();
+            
             $this->Flash->success(__('Sua Postagem foi atualizada.'));
             return $this->redirect(array('action' => 'index'));
         }
@@ -154,71 +135,6 @@ class PostsController extends AppController {
     }
 
     return $this->redirect(array('action' => 'index'));
-}
-
-/**
- * Verifica se o diretório existe, se não ele cria.
- * @access public
- * @param Array $imagem
- * @param String $data
-*/ 
-public function checa_dir($dir)
-{
-    App::uses('Folder', 'Utility');
-    $folder = new Folder();
-    if (!is_dir($dir)){
-        $folder->create($dir);
-    }
-}
-
-/**
- * Verifica se o nome do arquivo já existe, se existir adiciona um numero ao nome e verifica novamente
- * @access public
- * @param Array $imagem
- * @param String $data
- * @return nome da imagem
-*/ 
-public function checa_nome($imagem, $dir)
-{
-    $imagem_info = pathinfo($dir.$imagem['name']);
-    $imagem_nome = $this->trata_nome($imagem_info['filename']).'.'.$imagem_info['extension'];
-    debug($imagem_nome);
-    $conta = 2;
-    while (file_exists($dir.$imagem_nome)) {
-        $imagem_nome  = $this->trata_nome($imagem_info['filename']).'-'.$conta;
-        $imagem_nome .= '.'.$imagem_info['extension'];
-        $conta++;
-        debug($imagem_nome);
-    }
-    $imagem['name'] = $imagem_nome;
-    return $imagem;
-}
-
-/**
- * Trata o nome removendo espaços, acentos e caracteres em maiúsculo.
- * @access public
- * @param Array $imagem
- * @param String $data
-*/ 
-public function trata_nome($imagem_nome)
-{
-    $imagem_nome = strtolower(Inflector::slug($imagem_nome,'-'));
-    return $imagem_nome;
-}
-
-/**
- * Move o arquivo para a pasta de destino.
- * @access public
- * @param Array $imagem
- * @param String $data
-*/ 
-public function move_arquivos($imagem, $dir)
-{
-   
-    App::uses('File', 'Utility');
-    $arquivo = new File($imagem['tmp_name']);
-    $arquivo->copy($dir.$imagem['name']);
-    $arquivo->close();
 }
 
         

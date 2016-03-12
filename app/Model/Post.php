@@ -10,25 +10,14 @@ class Post extends AppModel {
    
    public $hasMany = ['Comentario'];
    
-   public $belongesTo = ['Categoria'];
+
    
    public $belongsTo = array(
         'Categoria' => array(
             'className' => 'Categoria',
-            'foreignKey' => 'id'
+            'foreignKey' => 'categoria_id'
         )
     );
-//   public function beforeSave($options = array())
-//{
-//       pr ($this->data);
-//       exit();
-//    if(!empty($this->data['Post']['imagem'])) {
-//        //$this->data['Post']['imagem'] = $this->upload($this->data['Post']['imagem']);
-//         $this->upload($this->request->data['Post']['imagem']);
-//    } else {
-//        unset($this->data['Post']['imagem']);
-//    }
-//}
-   
+
 }
 

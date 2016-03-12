@@ -19,6 +19,9 @@ class CategoriasController  extends AppController {
    
    public function add() {
        
+       
+       $this->set('categorias',$this->Categoria->find('all'));
+       
         if ($this->request->isPost()) {
              $this->Categoria->create();
              if ($this->Categoria->save($this->request->data)) {
@@ -32,5 +35,40 @@ class CategoriasController  extends AppController {
              $this->Flash->error(__('Não foi possível criar a categoria.'));
         } 
     }
+    
+     public function edit($id = null) {
+       
+       
+        if (!$id) {
+            throw new NotFoundException(__('Categoria Inválida'));
+        }
+
+        $categoria = $this->Categoria->findById($id);
+       
+
+        if (!$categoria) {
+            throw new NotFoundException(__('Categoria Inválida'));
+        }
+
+
+       // pr($this->Post->Categorias->find('list'));
+
+      //  exit;
+
+        if ($this->request->is(array('categoria', 'put'))) {
+            $this->Categoria->id = $id;
+
+            if ($this->Categoria->save($this->request->data)) {
+                $this->Flash->success(__('Sua Categoria foi atualizada.'));
+                return $this->redirect(array('action' => 'add'));
+            }
+            $this->Flash->error(__('Não foi possivel realizar a alteraçao.'));
+        }
+
+        if (!$this->request->data) {
+            $this->request->data = $categoria;
+        }
+    }
+
     
 }

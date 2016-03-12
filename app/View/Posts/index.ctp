@@ -2,6 +2,9 @@
 
 <h1> <?php echo $this->Html->link('+ Adicionar Postagem',
 array('controller' => 'posts', 'action' => 'add')); ?></h1> 
+
+<h1> <?php echo $this->Html->link('+ Adicionar Categoria',
+array('controller' => 'Categorias', 'action' => 'add')); ?></h1> 
 <table>
     <tr>
         <th>Id</th>

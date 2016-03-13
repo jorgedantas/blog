@@ -22,17 +22,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--/script-->
 <script type="text/javascript" src="app/webroot/js/move-top.js"></script>
 <script type="text/javascript" src="app/webroot/js/easing.js"></script>
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
+    <script src="http://malsup.github.com/jquery.form.js"></script> 
 <style>
 @font-face {
 font-family: west;
 src: url(‘fonts/WEST____.TTF’);
 }
+.entry-title {
+     
+    font-size: 20px !important;
+}
+
 </style>
 </head>
 <body>
 	<!-- header-section-starts -->
-
+<?php  // public $helpers = array('Js');
+        
+?> 
 	<div class="full">
 			<div class="col-md-3 top-nav">
 				     <div class="logo">
@@ -72,26 +80,87 @@ src: url(‘fonts/WEST____.TTF’);
 			   <!--//banner-->
 			  <!--/top-news-->
 			  <div class="top-news">
-				<div class="top-inner">
-					<div class="col-md-12 top-text">
-						 <a href="single.html"><img src="app/webroot/img/pic1.jpg" class="img-responsive" alt=""></a>
-						    <h5 class="top"><a href="single.html">Consetetur sadipscing elit</a></h5>
-							<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam eratsed diam justo duo dolores rebum.</p>
-						    <p>On Jun 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
+                              <?php foreach ($posts as $post): ?>
+                              <div class="top-inner" style="background-color: #ffffff;">
+					<div class="col-md-12 top-text ">
+                                            <h2 class="top">
+                                                <a href="single.html"><?php echo $post['Post']['titulo'] ?></a>
+                                             </h2>
+                                             <br>
+						<a href="single.html"><img src="app/webroot/img/upload/full/<?php echo $post['Post']['imagem'] ?>" class="img-responsive" alt=""></a>
+                                                <p   >
+						  <?php echo $post['Post']['corpo']  ?>
+                                               </p>
+                                              <p><?php echo date("d-m-Y",strtotime($post['Post']['created']))   ?> em <?php echo $post['Categoria']['nome']  ?> 
+                                                  <a  class="comentar" id="<?php echo $post['Post']['id'] ?>" ><span class="glyphicon glyphicon-comment"></span><?php echo count($post['Comentario'])  ?> </a>
+                                                  <a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a>
+                                                  <a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
+                                              <div class="response"></div>	
+					
+                                              <div class="visibilidade" id="mostrar<?php echo $post['Post']['id'] ?>">          
+                                        <h4>Comentários</h4>
+					<div class="media response-info">
+						
+					 <?php foreach ($post['Comentario'] as $comentariospost): ?>	
+                                              <div class="media-body response-text-right">
+							
+							<ul>
+								<li><?php echo date("d-m-Y",strtotime($comentariospost['created']))   ?></li>
+								
+							</ul>
+							<div class="media response-info">
+								<div class="media-left response-text-left">
+									<a href="#">
+										<img class="media-object" src="app/webroot/img/images/co.png" alt=""/>
+									</a>
+									<h5><a href="#"><?php echo $comentariospost['nome'] ?></a></h5>
+								</div>
+								<div class="media-body response-text-right">
+									<p><?php echo $comentariospost['corpo'] ?></p>
+										
+								</div>
+								<div class="clearfix"> </div>
+                                                                <br>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+                                         <?php endforeach; ?>      
+                                                
+					</div>
+					
+				
+                                              <div class="coment-form">
+                                                  <h4>Enviar Comentário</h4>
+                                              <?php 
+                                               echo $this->Form->create('Comentario', array(
+                                                    'inputDefaults' => array(
+                                                        'label' => false
+                                                        
+                                                    )
+                                                ));
+                                                echo $this->Form->input('nome',['placeholder' => 'Nome']); 
+                                                
+                                                echo $this->Form->input('email',['placeholder' => 'Email']);
+                                                echo $this->Form->input('corpo',['placeholder' => 'Mensagem']);
+                                                echo $this->Form->hidden('post_id', array('value' => $post['Post']['id']));
+                                                echo $this->Form->end('Enviar');
+                                              //  echo $this->Form->end('Enviar');
+                                                //echo $this->Js->submit('Enviar', array('update' => '#response')));
+                                             
+                                                echo "<div id='response'></div>";
+
+                                                          
+                                                          ?>
+                                                  
+                                            </div>                
+                                              </div>
 					 </div>
 
 					 <div class="clearfix"> </div>
 				 </div>
-				 <div class="top-inner second">
-					<div class="col-md-12 top-text">
-						 <a href="single.html"><img src="app/webroot/img/pic3.jpg" class="img-responsive" alt=""></a>
-						    <h5 class="top"><a href="single.html">Consetetur sadipscing elit</a></h5>
-							<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam eratsed diam justo duo dolores rebum.</p>
-						    <p>On Jun 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
-					 </div>
-
-					 <div class="clearfix"> </div>
-				 </div>
+                              <br>
+                               <?php endforeach; ?>
+				 
 	            </div>
 					<!--//top-news-->
 		     </div>
@@ -209,25 +278,46 @@ src: url(‘fonts/WEST____.TTF’);
 	</div>
 	<div class="clearfix"> </div>
 </div>
-		<!--//footer-->
-			<!--start-smooth-scrolling-->
-						<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear'
-								 		};
-										*/
-
-//										$().UItoTop({ easingType: 'easeOutQuart' });
-
-									});
-								</script>
+		
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
-
+<script> 
+        // wait for the DOM to be loaded 
+        $(document).ready(function() { 
+            $('.visibilidade').hide();
+            
+            $('.comentar').click(function(){
+                $('#mostrar'+this.id).toggle();
+               
+            });
+            
+            $('#ComentarioDisplayForm').submit(function(){ 
+              
+                //serialize form data 
+                var formData = $(this).serialize(); 
+                ////get form action 
+                var formUrl = "Comentarios/add"
+              
+                $.ajax({ 
+                    type: 'POST', 
+                    url: formUrl, 
+                    data: formData, 
+                    success: function(data,textStatus,xhr){ 
+                        $( '#response' ).html( data );
+                        $( '#ComentarioNome' ).val( "" );
+                        $( '#ComentarioEmail' ).val( "" );
+                        $( '#ComentarioCorpo' ).val( "" );
+                        $( '#ComentarioPostId' ).val( "" );
+                         
+                    }, 
+                    error: function(xhr,textStatus,error){ alert(textStatus + error);} 
+                });	return false; }); 
+            // bind 'myForm' and provide a simple callback function 
+//            $('#ComentarioDisplayForm').ajaxForm(function() { 
+//                alert("Thank you for your comment!"); 
+//            }); 
+        
+        }); 
+    </script> 
 </body>
 </html>

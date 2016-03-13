@@ -19,7 +19,7 @@
  */
 
 App::uses('AppController', 'Controller');
-
+//App::uses('Post', 'Model');
 /**
  * Static content controller
  *
@@ -28,7 +28,7 @@ App::uses('AppController', 'Controller');
  * @package       app.Controller
  * @link http://book.cakephp.org/2.0/en/controllers/pages-controller.html
  */
-class PagesController extends AppController {
+class PagesController extends AppController  {
 
 /**
  * This controller does not use a model
@@ -57,17 +57,45 @@ class PagesController extends AppController {
 			return $this->redirect('/');
 		}
 		$page = $subpage = $title_for_layout = null;
+                
+                //$myData = $Post->Post->find('all');
+          
+               // $posts = array('Post');
+               // $this->loadModel('Post');
+                // $projectModel = new Post();
+               //  $projects = $projectModel->find('all');
+               // $posts = $this->requestAction(array('controller'=>'Posts', 'action'=>'index'));
+                $posts = ClassRegistry::init('Post');
+              //  $comentarios = ClassRegistry::init('Comentario');
+                $todosposts = $posts->find('all');
+                //$comentariospost = $comentario->find('all');
+//                $comentariospostativo = $comentarios->find('all', array(
+//                    'conditions' => array('ativo' => 'true')
+//                ));
+//                $comentariospost = $this->Post->find('all', array(
+//                    'conditions' => array('Comentario.ativo' => 'true')
+//                ));
+                $this->set('posts',$todosposts);
+             //   $this->set('comentariospostativo',$comentariospostativo);
+                 // return $projects;
+                //echo pr($posts2);
+                //$myData['Post']['titulo'];
+               // $myData['RelatedModel']['field'];
 
-		if (!empty($path[0])) {
-			$page = $path[0];
-		}
-		if (!empty($path[1])) {
-			$subpage = $path[1];
-		}
-		if (!empty($path[$count - 1])) {
-			$title_for_layout = Inflector::humanize($path[$count - 1]);
-		}
-		$this->set(compact('page', 'subpage', 'title_for_layout'));
+               // $this->set('mydata', $myData);
+
+               // $posts = $this->Post->find('all');
+              //  pr($myData);
+//		if (!empty($path[0])) {
+//			$page = $path[0];
+//		}
+//		if (!empty($path[1])) {
+//			$subpage = $path[1];
+//		}
+//		if (!empty($path[$count - 1])) {
+//			$title_for_layout = Inflector::humanize($path[$count - 1]);
+//		}
+		//$this->set(compact('page', 'subpage', 'title_for_layout'));
 
 		try {
 			$this->render(implode('/', $path));

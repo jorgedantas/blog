@@ -4,6 +4,21 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+#foo {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-stretch: inherit;
+    line-height: 1.6;
+    font-family: Lato, sans-serif;
+    font-size: 23px !important;
+    vertical-align: baseline;
+    border: 0px;
+    color: rgb(102, 102, 102);
+    text-align: justify;
+}
+
 html, body{
 font-family: 'Open Sans', sans-serif;
  font-size: 100%;
@@ -39,7 +54,7 @@ input[type="button"],input[type="submit"],li.parallelogram{
 }
 h1,h2,h3,h4,h5,h6{
    margin:0;		
-     font-family: 'Montserrat-Regular';
+   font-family: 'Montserrat-Regular';
    font-weight:700;
 
 }	
@@ -71,7 +86,7 @@ ul.top-nag  a{
     font-size: 0.9em;
     font-weight: 600;
     text-transform: uppercase;
-   padding: 20px 20px;
+    padding: 20px 20px;
     background: none;
     background-color: #4A245E;
     display: inline-block;
@@ -589,7 +604,7 @@ color:#4a245e;
  padding-right: 0;
    padding-left:15px;
 }
-.top-news {
+h1 {
     padding: 2em 0;
 }
 .top-text p {

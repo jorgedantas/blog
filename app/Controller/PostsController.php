@@ -9,7 +9,10 @@
 class PostsController extends AppController {
    // public $autoRender = false;
     
- 
+   // function Todos(){
+    //    $this->set('posts', $this->Post->find('all'));
+    //}
+  
     public function isAuthorized($user) {
         // All registered users can add posts
         if ($this->action === 'add') {
@@ -29,7 +32,8 @@ class PostsController extends AppController {
     public function index() {
        //echo  pr($this->Post->find('all'));
       //exit();
-        $this->set('posts',$this->Post->find('all'));
+       return $this->set('posts',$this->Post->find('all'));
+         
     }
   
     public function view($id) {

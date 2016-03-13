@@ -1,3 +1,4 @@
+
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -129,6 +130,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 							</div>
 						</div>
 						<div class="clearfix"> </div>
+                                               
                                          <?php endforeach; ?>      
                                                 
 					</div>
@@ -164,9 +166,12 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 					 <div class="clearfix"> </div>
 				 </div>
                               <br>
+                             
+                              <div id="resultsDiv"> </div>
                                <?php endforeach; ?>
 				 
 	            </div>
+                          <span id="paginar">Leia Mais</span>
 					<!--//top-news-->
 		     </div>
 			<!--//banner-section-->
@@ -291,6 +296,8 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
                 $('#mostrar'+this.id).toggle();
                
             });
+            
+           
             
             $('#ComentarioDisplayForm').submit(function(){ 
               

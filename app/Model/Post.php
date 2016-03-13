@@ -1,6 +1,16 @@
 <?php
 
 class Post extends AppModel {
+    public $findMethods = array('available' =>  true);
+    
+    protected function _findAvailable($state, $query, $results = array()) {
+        if ($state === 'before') {
+            $query['conditions']['Article.published'] = true;
+            return $query;
+        }
+        return $results;
+    }
+    
     public $validate = array(
         'titulo' => 'notEmpty'
     );

@@ -42,7 +42,7 @@
         
         ?></td>
         <td><?php echo $this->Html->link('Ativar',
-        array('controller' => 'Comentarios', 'action' => 'ativar', $comentario['Comentario']['id'])); ?> / <?php echo $this->Html->link('Desativar',
+        array('controller' => 'Comentarios', 'action' => 'ativar', $comentario['Comentario']['id'])); ?> / <?php echo $this->Html->link('Bloquear',
         array('controller' => 'Comentarios', 'action' => 'desativar', $comentario['Comentario']['id'])); ?>/ <?php echo $this->Html->link('Remover',
         array('controller' => 'Comentarios', 'action' => 'delete', $comentario['Comentario']['id'])); ?></td>
         

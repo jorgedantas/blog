@@ -14,14 +14,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
  -->
 
-<link href="app/webroot/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="../../app/webroot/css/bootstrap.css" rel="stylesheet" type="text/css"/>
 <!-- <link href='//fonts.googleapis.com/css?family=Open+Sans:700,700italic,800,300,300italic,400italic,400,600,600italic' rel='stylesheet' type='text/css'>
  --><!--Custom-Theme-files-->
-<link href="app/webroot/css/style.css" rel='stylesheet' type='text/css' />
-<script src="app/webroot/js/jquery.min.js"> </script>
+<link href="../../app/webroot/css/style.css" rel='stylesheet' type='text/css' />
+<script src="../../app/webroot/js/jquery.min.js"> </script>
 <!--/script-->
-<script type="text/javascript" src="app/webroot/js/move-top.js"></script>
-<script type="text/javascript" src="app/webroot/js/easing.js"></script>
+<script type="text/javascript" src="../../app/webroot/js/move-top.js"></script>
+<script type="text/javascript" src="../../app/webroot/js/easing.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
     <script src="http://malsup.github.com/jquery.form.js"></script> 
 <style>
@@ -44,9 +44,9 @@ src: url(‘fonts/WEST____.TTF’);
 	<div class="full">
 			<div class="col-md-3 top-nav">
 				     <div class="logo">
-                                         <a href="/blog">
+						 <a href="/blog">
                                             
-                                             <img class="estrela"  src="app/webroot/img/images/estrela.png" >
+                                             <img class="estrela"  src="../../app/webroot/img/images/estrela.png" >
                                             
                                         </a>
 					</div>
@@ -54,7 +54,7 @@ src: url(‘fonts/WEST____.TTF’);
 					 <span class="menu"> </span>
 
 					<ul class="cl-effect-16">
-						<li><a class="active" href="/blog" data-hover="Início">Início</a></li>
+						<li><a class="active" href="index.html" data-hover="Início">Início</a></li>
 						<li><a href="about.html" data-hover="Sobre">Sobre</a></li>
 
 
@@ -76,10 +76,11 @@ src: url(‘fonts/WEST____.TTF’);
 					   </ul>-->
 			    </div>
 			</div>
-	<div class="col-md-9 main">
+            <?php foreach ($posts as $post): ?>
+           <div class="col-md-9 main">
 		<!--banner-section-->
 		<div class="banner-section">
-                    <h3 class="tittle"> <img src="app/webroot/img/logo.png"></h3>
+                    <h3 class="tittle"> <img src="../../app/webroot/img/logo.png"></h3>
 
 			   <!--//banner-->
 			  <!--/top-news-->
@@ -92,7 +93,7 @@ src: url(‘fonts/WEST____.TTF’);
 array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
                                              </h2>
                                              <br>
-						<a href="single.html"><img src="app/webroot/img/upload/full/<?php echo $post['Post']['imagem'] ?>" class="img-responsive" alt=""></a>
+						<a href="single.html"><img src="../../app/webroot/img/upload/full/<?php echo $post['Post']['imagem'] ?>" class="img-responsive" alt=""></a>
                                                 <p   >
 						  <?php echo $post['Post']['corpo']  ?>
                                                </p>
@@ -116,7 +117,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 							<div class="media response-info">
 								<div class="media-left response-text-left">
 									<a href="#">
-										<img class="media-object" src="app/webroot/img/images/co.png" alt=""/>
+										<img class="media-object" src="../../app/webroot/img/images/co.png" alt=""/>
 									</a>
 									<h5><a href="#"><?php echo $comentariospost['nome'] ?></a></h5>
 								</div>
@@ -165,7 +166,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 				 </div>
                               <br>
                                <?php endforeach; ?>
-				 
+                              <span id="paginar">Ver mais</span> 
 	            </div>
 					<!--//top-news-->
 		     </div>
@@ -176,7 +177,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 			 <div class="general-news">
 				<div class="general-inner">
 					<div class="general-text">
-						 <a href="single.html"><img src="app/webroot/img/gen1.jpg" class="img-responsive" alt=""></a>
+						 <a href="single.html"><img src="../../app/webroot/img/gen1.jpg" class="img-responsive" alt=""></a>
 						    <h5 class="top"><a href="single.html">Consetetur sadipscing elit</a></h5>
 							<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam eratsed diam justo duo dolores rebum.</p>
 						    <p>On Jun 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
@@ -184,7 +185,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 					 <div class="edit-pics">
 							      <div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="app/webroot/img/f4.jpg" class="img-responsive" alt="">
+										   <img src="../../app/webroot/img/f4.jpg" class="img-responsive" alt="">
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -195,7 +196,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 										</div>
 										<div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="app/webroot/img/f1.jpg" class="img-responsive" alt="">
+										   <img src="../../app/webroot/img/f1.jpg" class="img-responsive" alt="">
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -206,7 +207,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 										</div>
 										<div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="app/webroot/img/f1.jpg" class="img-responsive" alt="">
+										   <img src="../../app/webroot/img/f1.jpg" class="img-responsive" alt="">
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -217,7 +218,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 										</div>
 										<div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="app/webroot/img/f4.jpg" class="img-responsive" alt="">
+										   <img src="../../app/webroot/img/f4.jpg" class="img-responsive" alt="">
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -230,14 +231,14 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 								<div class="media">
 								 <h3 class="tittle media">Media <i class="glyphicon glyphicon-floppy-disk"></i></h3>
 								  <div class="general-text two">
-									 <a href="single.html"><img src="app/webroot/img/gen3.jpg" class="img-responsive" alt=""></a>
+									 <a href="single.html"><img src="../../app/webroot/img/gen3.jpg" class="img-responsive" alt=""></a>
 										<h5 class="top"><a href="single.html">Consetetur sadipscing elit</a></h5>
 										<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam eratsed diam justo duo dolores rebum.</p>
 										<p>On Jun 27 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
 								  </div>
 					         </div>
 					    <div class="general-text two">
-						    <a href="single.html"><img src="app/webroot/img/gen2.jpg" class="img-responsive" alt=""></a>
+						    <a href="single.html"><img src="../../app/webroot/img/gen2.jpg" class="img-responsive" alt=""></a>
 						    <h5 class="top"><a href="single.html">Consetetur sadipscing elit</a></h5>
 							<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam eratsed diam justo duo dolores rebum.</p>
 						    <p>On Jun 27 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
@@ -250,7 +251,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 		 </div>
 			<div class="clearfix"> </div>
 	<!--/footer-->
-	     <div class="footer">
+	      <div class="footer">
 				 <div class="footer-top">
 				    <div class="col-md-4 footer-grid">
 					     
@@ -270,21 +271,17 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 				 </div>
 	     </div>
 		<div class="copy">
-		    <p>&copy; 2016 Sheriff do Seridó. Todos os Direitos Reservados| Desenvolvido por <a href="http://w3layouts.com/">W3layouts</a> | Produzido por <a href="http://jorgedantas.tech/">Jorge Dantas</a> </p>
+		    <p>&copy; 2016 Blogger. All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a> </p>
 		</div>
 	 
-	<div class="clearfix"> </div>
+         <!--<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>-->
 	</div>
-	<div class="clearfix"> </div>
-</div>	
-		
-		<!--<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>-->
+            <?php endforeach; ?>
+        </div>	
 
-        
 <script> 
         // wait for the DOM to be loaded 
         $(document).ready(function() { 
-            //$().UItoTop({ easingType: 'easeOutQuart' });
             $('.visibilidade').hide();
             
             $('.comentar').click(function(){
@@ -320,7 +317,5 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
         
         }); 
     </script> 
-   
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 </body>
 </html>

@@ -3,8 +3,11 @@
 App::uses('Controller', 'Controller');
 
 class AppController extends Controller {
+
+
    
      public $components = [
+        'Paginator',
         'Session',
         'Flash',
         'Auth' => array(
@@ -25,14 +28,21 @@ class AppController extends Controller {
         )
         ];
         public function isAuthorized($user) {
-        // Admin can access every action
-        //if (isset($user['role']) && $user['role'] === 'admin') {
+      
             return true;
-       // }
-
-        // Default deny
-       // return false;
+     
         } 
+         public $paginate = array(
+        'limit' => 1,
+        'order' => array(
+            'Post.title' => 'asc'
+        )
+    );
+    
+//         public $paginate = array(
+//                    'limit' => 5,
+//                    'order' =>array('Post.id' => 'Desc')
+//                );
         //public function beforeFilter() {
         //    $this->Auth->allow('index', 'view');
         //}

@@ -4,6 +4,14 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+.estrela {
+
+	position:absolute;
+	top:4%;
+	left:50%;
+	margin-top:-50px;
+	margin-left:-50px;
+}
 
 #foo {
     box-sizing: border-box;
@@ -20,10 +28,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 
 html, body{
-font-family: 'Open Sans', sans-serif;
+ font-family: 'Open Sans', sans-serif;
  font-size: 100%;
  background: #E7FFCC;
- /* background: #FFf; */}
+ /* background: #FFf; */
+ }
    
 body a {
 	transition:0.5s all;
@@ -174,11 +183,12 @@ ul.top-nag  a.active{
     margin-top: 9em;
 }
 .top-nav{
-       float: left;
+       /* float: left; */
        background-color: #518415;
        width: 15%;
-       padding: 3em 1em 95.6em 1em;
-       position:absolute;
+       /* height: 100%; */
+       padding: 5em 1em 104.6em 1em;
+       /* position:absolute; */
 }
 .top-nav.contact{
        float: left;
@@ -1406,7 +1416,7 @@ p.reply i{
 /*--footer--*/
 .footer {
       padding: 2em 0;
-    background-color: #111;
+    background-color: #518415;
 }
 .footer-grid h4 {
     color: #fff;
@@ -1435,15 +1445,16 @@ ul.bottom i {
 }
 .copy {
         text-align: center;
-    background:#4A245E;
-    padding: 1em;
+    background:#518415;
+    padding: 2em;
 	}
 .copy p {
   color: #fff;
   font-size: 0.9em;
+  
 }
 .copy p a {
-   color: #518415;
+    color: #ffffff;
 }
 .copy p a:hover{
 	 text-decoration: underline;

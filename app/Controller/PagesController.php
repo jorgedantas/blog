@@ -7,25 +7,41 @@ class PagesController extends AppController  {
 // public $components = array('Paginator');
 
 	public $uses = array();
-        public $components = array( 'Paginator');
+//        public $components = array( 'Paginator');
         
-        public $paginate = array(
-            'fields' => array('Post.id', 'Post.created'),
-            'limit' => 1,
-            'order' => array(
-                'Post.title' => 'asc'
-            )
-        );
+//        public $paginate = array(
+//            'fields' => array('Post.id', 'Post.created'),
+//            'limit' => 1,
+//            'order' => array(
+//                'Post.title' => 'asc'
+//            )
+//        );
         
        
         public function beforeFilter() {
             parent::beforeFilter();
         // Allow users to register and logout.
-            $this->Auth->allow('display','interna','index');
+            $this->Auth->allow('display','interna','index','paginar');
         }
         
+        public function paginar($id =5) {
+            $posts = ClassRegistry::init('Post');
+            
+            $todosposts = $posts->find('all', array('limit' => $id));
+           //  $todosposts = $posts->find('all',array(
+                   // 'order' => array('Post.created' => 'desc'//,
+                     //   'limit' => 1
+                        
+                      //  )
+           // ));
+             
+            $this->set('posts', $todosposts); 
+            //return $this->redirect(array('action' => 'index'));
+           // $this->render(implode('/', 'index'));
+           // return echo $id ;
+        }
         public function index() {
-     
+          //pr($posts);
             $posts = ClassRegistry::init('Post');
               // pr($posts);
             

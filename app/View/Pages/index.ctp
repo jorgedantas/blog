@@ -167,9 +167,9 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 				 </div>
                               <br>
                              
-                              <div id="resultsDiv"> </div>
+                              
                                <?php endforeach; ?>
-				 
+			<div id="resultsDiv"> </div>
 	            </div>
                           <span id="paginar">Leia Mais</span>
 					<!--//top-news-->
@@ -298,6 +298,24 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
             });
             
            
+            $('#paginar').click(function(){ 
+              
+                //serialize form data 
+                //var formData = $(this).serialize(); 
+                ////get form action 
+                var formUrl = "pages/paginar/";
+              
+                $.ajax({ 
+                    type: 'POST', 
+                    url: formUrl, 
+                  //  data: formData, 
+                    success: function(data,textStatus,xhr){ 
+                      $( '#resultsDiv' ).html( data );
+                      //  alert(data);
+                         
+                    }, 
+                    error: function(xhr,textStatus,error){ alert(textStatus + error);} 
+                });	return false; }); 
             
             $('#ComentarioDisplayForm').submit(function(){ 
               

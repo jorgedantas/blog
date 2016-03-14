@@ -37162,3 +37162,320 @@ Stack Trace:
 #3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-03-13 23:53:35 Error: [MissingActionException] Action ComentariosController::paginar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ComentariosController',
+  'action' => 'paginar',
+)
+Request URL: /blog/Comentarios/paginar/5
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComentariosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-13 23:56:33 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\blog\app\Controller\PagesController.php, line 29]
+2016-03-13 23:56:33 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /blog/pages/paginar
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 29, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 29, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-13 23:57:05 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\blog\app\Controller\PagesController.php, line 29]
+2016-03-13 23:57:05 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /blog/pages/paginar
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 29, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 29, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-14 00:02:18 Error: [MissingViewException] View file "Pages\paginar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\paginar.ctp',
+)
+Request URL: /blog/pages/paginar
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\blog\app\Controller\PagesController.php(40): Controller->render(NULL)
+#3 [internal function]: PagesController->paginar()
+#4 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/css/bootstrap.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/js/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/js/easing.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/js/move-top.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/images/estrela.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/images/co.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/gen1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/upload/full/mi_15327768092662749.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/f1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/f4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/gen3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/gen2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/images/estrela.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/upload/full/mi_15327768092662749.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/gen1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/images/co.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/f4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/f1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:07:40 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/img/gen3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-14 00:10:49 Error: [MissingControllerException] Controller class 3Controller could not be found.
+Exception Attributes: array (
+  'class' => '3Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog/3
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-14 00:11:04 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /blog/index/4
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-14 00:35:16 Error: [MissingActionException] Action ComentariosController::paginar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ComentariosController',
+  'action' => 'paginar',
+)
+Request URL: /blog/Comentarios/paginar/5
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComentariosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

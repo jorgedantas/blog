@@ -4,19 +4,9 @@
 App::uses('AppController', 'Controller');
 
 class PagesController extends AppController  {
-// public $components = array('Paginator');
 
 	public $uses = array();
-//        public $components = array( 'Paginator');
-        
-//        public $paginate = array(
-//            'fields' => array('Post.id', 'Post.created'),
-//            'limit' => 1,
-//            'order' => array(
-//                'Post.title' => 'asc'
-//            )
-//        );
-        
+
        
         public function beforeFilter() {
             parent::beforeFilter();
@@ -24,47 +14,20 @@ class PagesController extends AppController  {
             $this->Auth->allow('display','interna','index','paginar');
         }
         
-        public function paginar($id =5) {
-            $posts = ClassRegistry::init('Post');
-            
-            $todosposts = $posts->find('all', array('limit' => $id));
-           //  $todosposts = $posts->find('all',array(
-                   // 'order' => array('Post.created' => 'desc'//,
-                     //   'limit' => 1
-                        
-                      //  )
-           // ));
-             
-            $this->set('posts', $todosposts); 
-            //return $this->redirect(array('action' => 'index'));
-           // $this->render(implode('/', 'index'));
-           // return echo $id ;
+        public function paginar($pulo ) {
+              
+           $posts = ClassRegistry::init('Post');
+           $todosposts = $posts->find('all',array('limit'=>2, 'offset'=>$pulo));
+           $this->set('posts', $todosposts); 
+          
         }
         public function index() {
-          //pr($posts);
-            $posts = ClassRegistry::init('Post');
-              // pr($posts);
+        
+           $posts = ClassRegistry::init('Post');
+           $todosposts = $posts->find('all',array('limit'=> '2'));
+           $this->set('posts', $todosposts);    
             
-           
-            
-            $todosposts = $posts->find('all',array(
-                    'order' => array('Post.created' => 'desc'//,
-                       // 'limit' => 1
-                        
-                        )
-            ));
-                   
-           // $todosposts->query("SELECT * FROM posts LIMIT 1;");
-            
-          //  pr($todosposts);
-            //$posts->Paginator->settings = $posts->paginate;
-           //   pr($posts->paginate);
-           //   exit();
-            // similar to findAll(), but fetches paged results
-           // $todosposts = $posts->Paginator->paginate($posts);
-            $this->set('posts', $todosposts);    
-            
-           // $this->set('posts',$todosposts);
+         
         }
         
 	public function display() {

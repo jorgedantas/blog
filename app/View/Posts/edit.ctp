@@ -7,6 +7,7 @@ echo $this->Form->input('titulo');
 echo $this->Form->input('categoria_id', array('options' => $categorias));
 //echo $this->Form->input('corpo', array('rows' => '3'));
 echo $this->Form->textarea('corpo',array('class'=>'ckeditor'));
+echo $this->Form->hidden('imagem',array('class'=>'img-select'));
 echo $this->Form->input('id', array('type' => 'hidden'));
 echo $this->Form->end('Save Post');
 ?>

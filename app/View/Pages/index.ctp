@@ -38,6 +38,7 @@ src: url(‘fonts/WEST____.TTF’);
 </style>
 </head>
 <body>
+    <input type="hidden" id="pulo" name="pulo" value="2">
 	<!-- header-section-starts -->
 <?php  // public $helpers = array('Js');
         
@@ -136,7 +137,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 					</div>
 					
 				
-                                              <div class="coment-form">
+                                              <div class="coment-form esconder">
                                                   <h4>Enviar Comentário</h4>
                                               <?php 
                                                echo $this->Form->create('Comentario', array(
@@ -169,7 +170,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
                              
                               
                                <?php endforeach; ?>
-			<div id="resultsDiv"> </div>
+                              <div style="border: 1px solid" id="resultsDiv"> </div>
 	            </div>
                           <span id="paginar">Leia Mais</span>
 					<!--//top-news-->
@@ -292,6 +293,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
             //$().UItoTop({ easingType: 'easeOutQuart' });
             $('.visibilidade').hide();
             
+            
             $('.comentar').click(function(){
                 $('#mostrar'+this.id).toggle();
                
@@ -303,14 +305,21 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
                 //serialize form data 
                 //var formData = $(this).serialize(); 
                 ////get form action 
-                var formUrl = "pages/paginar/";
-              
+                var pulo = $('#pulo').val();   
+               
+                alert(pulo);
+                var formUrl = "pages/paginar/"+pulo;
+                
+                $('#pulo').val(parseInt(pulo) + 2); 
+                
                 $.ajax({ 
                     type: 'POST', 
                     url: formUrl, 
                   //  data: formData, 
                     success: function(data,textStatus,xhr){ 
-                      $( '#resultsDiv' ).html( data );
+                     $( data ).insertBefore( '#resultsDiv' );
+                     // $( '#resultsDiv'  ).before( data );
+                     // $(  ).html( data );
                       //  alert(data);
                          
                     }, 

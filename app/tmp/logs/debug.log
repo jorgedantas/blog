@@ -2280,3 +2280,29 @@ Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
 [main] - APP\webroot\index.php, line 111
 
+2016-03-15 01:51:10 Debug: Notice (8): Undefined variable: pulo in [C:\xampp\htdocs\blog\app\Controller\PagesController.php, line 20]
+Trace:
+PagesController::paginar() - APP\Controller\PagesController.php, line 20
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 111
+
+2016-03-15 01:58:03 Debug: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [C:\xampp\htdocs\blog\lib\Cake\Utility\Validation.php, line 60]
+Trace:
+Validation::notEmpty() - CORE\Cake\Utility\Validation.php, line 60
+CakeValidationRule::process() - CORE\Cake\Model\Validator\CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE\Cake\Model\Validator\CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE\Cake\Model\ModelValidator.php, line 268
+ModelValidator::validates() - CORE\Cake\Model\ModelValidator.php, line 99
+Model::validates() - CORE\Cake\Model\Model.php, line 3469
+Model::_doSave() - CORE\Cake\Model\Model.php, line 1829
+Model::save() - CORE\Cake\Model\Model.php, line 1751
+PostsController::add() - APP\Controller\PostsController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 111
+

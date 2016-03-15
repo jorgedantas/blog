@@ -17,7 +17,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
                                                   <a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
                                               <div class="response"></div>	
 					
-                                              <div class="visibilidade" id="mostrar<?php echo $post['Post']['id'] ?>">          
+                                              <div style="display: none" class="visibilidade" id="mostrar<?php echo $post['Post']['id'] ?>">          
                                         <h4>Comentários</h4>
 					<div class="media response-info">
 						
@@ -50,7 +50,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 					</div>
 					
 				
-                                              <div class="coment-form">
+                                              <div class="coment-form ">
                                                   <h4>Enviar Comentário</h4>
                                               <?php 
                                                echo $this->Form->create('Comentario', array(
@@ -83,4 +83,4 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
                              
                               <div id="resultsDiv"> </div>
                                <?php endforeach; ?>
-		
+		      

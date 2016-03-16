@@ -22,17 +22,32 @@ class PagesController extends AppController  {
           
         }
         public function index() {
-        
+       
            $posts = ClassRegistry::init('Post');
-           $todosposts = $posts->find('all',array('limit'=> '2'));
+           $posts2 = ClassRegistry::init('Post');
+           $todosposts = $posts->find('all',
+                   array('limit'=> '2','order' => array('Post.created' => 'desc'))
+                    
+                   );
+           $postmaiscomentados = $posts2->find('all',
+                   array('limit'=> '2','order' => array('Post.created' => 'asc'))
+                    
+                   );
+           
+         //  $postmaiscomentados = $posts->find('all'// array(
+               // 'fields' => 'DISTINCT Post.id'//,
+               // 'conditions' => array('Post.Comentario.ativo !=' => true)
+           //  );
+           //  pr($postmaiscomentados);
            $this->set('posts', $todosposts);    
-            
+           
+           $this->set('postmaiscomentados', $postmaiscomentados);     
          
         }
         
 	public function display() {
 		$path = func_get_args();
-                $posts = ClassRegistry::init('Post');
+        $posts = ClassRegistry::init('Post');
 
 		$count = count($path);
 		if (!$count) {

@@ -94,13 +94,15 @@ src: url(‘fonts/WEST____.TTF’);
 array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
                                              </h2>
                                              <br>
-						<a href="single.html"><img src="app/webroot/img/upload/full/<?php echo $post['Post']['imagem'] ?>" class="img-responsive" alt=""></a>
-                                                <p   >
+                                                <?php if ($post['Post']['imagem'] != "" ) { ?>
+                                                    <a href="single.html"><img src="app/webroot/img/upload/full/<?php echo $post['Post']['imagem'] ?>" class="img-responsive" alt=""></a>
+                                                <?php } ?>
+                                                <p>
 						  <?php echo $post['Post']['corpo']  ?>
                                                </p>
                                               <p><?php echo date("d-m-Y",strtotime($post['Post']['created']))   ?> em <?php echo $post['Categoria']['nome']  ?> 
                                                   <a  class="comentar" id="<?php echo $post['Post']['id'] ?>" ><span class="glyphicon glyphicon-comment"></span><?php echo count($post['Comentario'])  ?> </a>
-                                                  <a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a>
+                                                  
                                                   <a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
                                               <div class="response"></div>	
 					
@@ -170,85 +172,55 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
                              
                               
                                <?php endforeach; ?>
-                              <div style="border: 1px solid" id="resultsDiv"> </div>
+                              <div id="resultsDiv"> </div>
 	            </div>
                           <span id="paginar">Leia Mais</span>
 					<!--//top-news-->
 		     </div>
-			<!--//banner-section-->
-			<div class="banner-right-text">
-			 <h3 class="tittle">News  <i class="glyphicon glyphicon-facetime-video"></i></h3>
+			
 			<!--/general-news-->
 			 <div class="general-news">
 				<div class="general-inner">
-					<div class="general-text">
-						 <a href="single.html"><img src="app/webroot/img/gen1.jpg" class="img-responsive" alt=""></a>
-						    <h5 class="top"><a href="single.html">Consetetur sadipscing elit</a></h5>
-							<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam eratsed diam justo duo dolores rebum.</p>
-						    <p>On Jun 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
-					 </div>
-					 <div class="edit-pics">
-							      <div class="editor-pics">
-										 <div class="col-md-3 item-pic">
-										   <img src="app/webroot/img/f4.jpg" class="img-responsive" alt="">
-
-										   </div>
-											<div class="col-md-9 item-details">
-												<h5 class="inner two"><a href="single.html">New iPad App to simulate your Guitar</a></h5>
-												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>Feb 22, 2015 <a href="#"><i class="glyphicon glyphicon-comment"></i>0 </a></div>
-											 </div>
-											<div class="clearfix"></div>
-										</div>
-										<div class="editor-pics">
-										 <div class="col-md-3 item-pic">
-										   <img src="app/webroot/img/f1.jpg" class="img-responsive" alt="">
-
-										   </div>
-											<div class="col-md-9 item-details">
-												<h5 class="inner two"><a href="single.html">New iPad App to simulate your Guitar</a></h5>
-												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>Feb 22, 2015 <a href="#"><i class="glyphicon glyphicon-comment"></i>0 </a></div>
-											 </div>
-											<div class="clearfix"></div>
-										</div>
-										<div class="editor-pics">
-										 <div class="col-md-3 item-pic">
-										   <img src="app/webroot/img/f1.jpg" class="img-responsive" alt="">
-
-										   </div>
-											<div class="col-md-9 item-details">
-												<h5 class="inner two"><a href="single.html">New iPad App to simulate your Guitar</a></h5>
-												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>Feb 22, 2015 <a href="#"><i class="glyphicon glyphicon-comment"></i>0 </a></div>
-											 </div>
-											<div class="clearfix"></div>
-										</div>
-										<div class="editor-pics">
-										 <div class="col-md-3 item-pic">
-										   <img src="app/webroot/img/f4.jpg" class="img-responsive" alt="">
-
-										   </div>
-											<div class="col-md-9 item-details">
-												<h5 class="inner two"><a href="single.html">New iPad App to simulate your Guitar</a></h5>
-												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>Feb 22, 2015 <a href="#"><i class="glyphicon glyphicon-comment"></i>0 </a></div>
-											 </div>
-											<div class="clearfix"></div>
-										</div>
-									</div>
-								<div class="media">
-								 <h3 class="tittle media">Media <i class="glyphicon glyphicon-floppy-disk"></i></h3>
-								  <div class="general-text two">
-									 <a href="single.html"><img src="app/webroot/img/gen3.jpg" class="img-responsive" alt=""></a>
-										<h5 class="top"><a href="single.html">Consetetur sadipscing elit</a></h5>
-										<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam eratsed diam justo duo dolores rebum.</p>
-										<p>On Jun 27 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
-								  </div>
-					         </div>
-					    <div class="general-text two">
-						    <a href="single.html"><img src="app/webroot/img/gen2.jpg" class="img-responsive" alt=""></a>
-						    <h5 class="top"><a href="single.html">Consetetur sadipscing elit</a></h5>
-							<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam eratsed diam justo duo dolores rebum.</p>
-						    <p>On Jun 27 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
-					    </div>
+					
+					 
+                                    <div class="media" >
+                                     <h3 class="tittle media">Notícias em destaque </h3>
+                                     <?php  foreach ($postmaiscomentados as $postcomentados): ?>
+                                      <div class="general-text two" style="background-color: #ffffff;">
+                                            <h5 class="top"><a href="single.html"></a><?php echo $postcomentados['Post']['titulo'] ?></h5>
+                                             
+                                                      <?php if ($postcomentados['Post']['imagem'] != "" ) { ?>
+                                                        <a href="single.html"><img src="app/webroot/img/upload/full/<?php echo $postcomentados['Post']['imagem'] ?>" class="img-responsive" alt=""></a>
+                                                    <?php } ?>
+                                                    <p><?php 
+                                                    echo  App::uses('CakeText', 'Utility');
+                                                      
+                                                    $xico = $postcomentados['Post']['corpo'];
+                                                    //echo($xico);
+                                                    echo  CakeText::truncate(
+                                                            $xico,
+                                                            300,
+                                                            array(
+                                                                'ellipsis' => '...',
+                                                                'exact' => true
+                                                            )
+                                                        );
+                                                  // echo 
+                                                            
+                                                            ?></p>
+                                                    <p><?php echo date("d-m-Y",strtotime($postcomentados['Post']['created']))   ?><a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
+                                      </div>
+                                     <?php endforeach;?>
+                                 </div>
+                               
 				 </div>
+                                 <div class="general-inner">
+                                     <div class="media">
+                                       <h3 class="tittle media">Twitter <i class="glyphicon glyphicon-twitter"></i></h3>  
+                                       <a class="twitter-timeline" href="https://twitter.com/GovernodoRN" data-widget-id="260820737563164673">Tweets by @GovernodoRN</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                                     </div>
+                                 </div>    
 			</div>
 			<!--//general-news-->
 			<!--/news-->
@@ -276,7 +248,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 				 </div>
 	     </div>
 		<div class="copy">
-		    <p>&copy; 2016 Sheriff do Seridó. Todos os Direitos Reservados| Desenvolvido por <a href="http://w3layouts.com/">W3layouts</a> | Produzido por <a href="http://jorgedantas.tech/">Jorge Dantas</a> </p>
+		    <p>&copy; 2016 Sheriff do Seridó. Todos os Direitos Reservados| </p>
 		</div>
 	 
 	<div class="clearfix"> </div>
@@ -307,7 +279,7 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
                 ////get form action 
                 var pulo = $('#pulo').val();   
                
-                alert(pulo);
+               // alert(pulo);
                 var formUrl = "pages/paginar/"+pulo;
                 
                 $('#pulo').val(parseInt(pulo) + 2); 
@@ -316,8 +288,10 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
                     type: 'POST', 
                     url: formUrl, 
                   //  data: formData, 
-                    success: function(data,textStatus,xhr){ 
-                     $( data ).insertBefore( '#resultsDiv' );
+                    success: function(data,textStatus,xhr){
+                     //alert();
+		    $("#resultsDiv").append("<div id=resultsDiv"+pulo+"></div>")
+                    $(data).insertBefore( '#resultsDiv'+pulo );
                      // $( '#resultsDiv'  ).before( data );
                      // $(  ).html( data );
                       //  alert(data);

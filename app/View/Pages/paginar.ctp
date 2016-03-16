@@ -7,13 +7,15 @@
 array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
                                              </h2>
                                              <br>
-						<a href="single.html"><img src="app/webroot/img/upload/full/<?php echo $post['Post']['imagem'] ?>" class="img-responsive" alt=""></a>
-                                                <p   >
+						 <?php if ($post['Post']['imagem'] != "" ) { ?>
+                                                    <a href="single.html"><img src="app/webroot/img/upload/full/<?php echo $post['Post']['imagem'] ?>" class="img-responsive" alt=""></a>
+                                                <?php } ?>
+                                             <p   >
 						  <?php echo $post['Post']['corpo']  ?>
                                                </p>
                                               <p><?php echo date("d-m-Y",strtotime($post['Post']['created']))   ?> em <?php echo $post['Categoria']['nome']  ?> 
                                                   <a  class="comentar" id="<?php echo $post['Post']['id'] ?>" ><span class="glyphicon glyphicon-comment"></span><?php echo count($post['Comentario'])  ?> </a>
-                                                  <a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a>
+                                                  
                                                   <a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
                                               <div class="response"></div>	
 					

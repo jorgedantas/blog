@@ -183,35 +183,27 @@ array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
 				<div class="general-inner">
 					
 					 
-                                    <div class="media" >
+                                    <div class="media">
                                      <h3 class="tittle media">Notícias em destaque </h3>
+                                     <div  style="background-color: #ffffff;">
+                                     <div class="edit-pics">
                                      <?php  foreach ($postmaiscomentados as $postcomentados): ?>
-                                      <div class="general-text two" style="background-color: #ffffff;">
-                                            <h5 class="top"><a href="single.html"></a><?php echo $postcomentados['Post']['titulo'] ?></h5>
-                                             
-                                                      <?php if ($postcomentados['Post']['imagem'] != "" ) { ?>
-                                                        <a href="single.html"><img src="app/webroot/img/upload/full/<?php echo $postcomentados['Post']['imagem'] ?>" class="img-responsive" alt=""></a>
-                                                    <?php } ?>
-                                                    <p><?php 
-                                                    echo  App::uses('CakeText', 'Utility');
-                                                      
-                                                    $xico = $postcomentados['Post']['corpo'];
-                                                    //echo($xico);
-                                                    echo  CakeText::truncate(
-                                                            $xico,
-                                                            300,
-                                                            array(
-                                                                'ellipsis' => '...',
-                                                                'exact' => true
-                                                            )
-                                                        );
-                                                  // echo 
-                                                            
-                                                            ?></p>
-                                                    <p><?php echo date("d-m-Y",strtotime($postcomentados['Post']['created']))   ?><a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
-                                      </div>
+                                      <div class="editor-pics">
+										 <div class="col-md-3 item-pic">
+										   <img src="app/webroot/img/upload/full/<?php echo $postcomentados['Post']['imagem'] ?>" class="img-responsive" alt="">
+
+										   </div>
+											<div class="col-md-9 item-details">
+												<h5 class="inner two"><a href="single.html"><?php echo $postcomentados['Post']['titulo'] ?></a></h5>
+												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i><?php echo date("d-m-Y",strtotime($postcomentados['Post']['created']))  ?> <a href="#"><i class="glyphicon glyphicon-comment"></i> </a><a class="span_link" href=""><span class="glyphicon glyphicon-circle-arrow-right"></span></a></div>
+											 </div>
+											<div class="clearfix"></div>
+										</div>
                                      <?php endforeach;?>
-                                 </div>
+                                         
+                                     </div>
+                                     </div>
+                                 </div>								
                                
 				 </div>
                                  <div class="general-inner">

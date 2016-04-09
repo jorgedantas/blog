@@ -1,321 +1,320 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
+
+<!DOCTYPE html>
 <head>
-<title>Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- <meta name="keywords" content="Blogger Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android  Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
- -->
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>
+SHERIFF DO SERIDÓ
+</title>
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<link href='../../app/webroot/bootstrap/3.3.1/css/bootstrap.min.css' rel='stylesheet' type='text/css'/>
+<link href='../../app/webroot/font-awesome/4.1.0/css/font-awesome.min.css' id='fontawesome' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700|Merriweather:300,400,700|Bangers|Montserrat:400,700&amp;subset=cyrillic' rel='stylesheet' type='text/css'/>
+<!-- <link type='text/css' rel='stylesheet' href='www.blogger.com/static/v1/widgets/3645911276-widget_css_bundle.css' />
+<link type='text/css' rel='stylesheet' href='www.blogger.com/dyn-css/authorizationc1b4.css?targetBlogID=1457031721144529915&amp;zx=4ad2f874-b33f-49c0-9620-9557180e699c' /> -->
+<link href='../../app/webroot/css/principal.css' rel='stylesheet' type='text/css'/>
 
-<link href="../../app/webroot/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-<!-- <link href='//fonts.googleapis.com/css?family=Open+Sans:700,700italic,800,300,300italic,400italic,400,600,600italic' rel='stylesheet' type='text/css'>
- --><!--Custom-Theme-files-->
-<link href="../../app/webroot/css/style.css" rel='stylesheet' type='text/css' />
-<script src="../../app/webroot/js/jquery.min.js"> </script>
-<!--/script-->
-<script type="text/javascript" src="../../app/webroot/js/move-top.js"></script>
-<script type="text/javascript" src="../../app/webroot/js/easing.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
-    <script src="http://malsup.github.com/jquery.form.js"></script> 
-<style>
-@font-face {
-font-family: west;
-src: url(‘fonts/WEST____.TTF’);
-}
-.entry-title {
-     
-    font-size: 20px !important;
-}
-
-</style>
 </head>
+<!--<body>-->
 <body>
-	<!-- header-section-starts -->
-<?php  // public $helpers = array('Js');
-        
-?> 
-	<div class="full">
-			<div class="col-md-3 top-nav">
-				     <div class="logo">
-						 <a href="/blog">
-                                            
-                                             <img class="estrela"  src="../../app/webroot/img/images/estrela.png" >
-                                            
-                                        </a>
-					</div>
-					<div class="top-menu">
-					 <span class="menu"> </span>
+<header id='blog_header'>
+<div class='ct-wrapper'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<a class='logo' href='index.html' style='display: inline-block'>
+<img alt='Gamer' id='Header1_headerimg' src='../../app/webroot/img/logo3.png' style='display: block'/>
+</a>
+</div>
+</div></div>
+</div>
+<div class='navigation section' id='navigation'><div class='widget HTML' id='HTML77'>
+<div class='nav-menu'>
+<div class='ct-wrapper'>
+<ul class='blog_menus'>
+<li><a href='index.html'>Início</a></li>
+<li><a href='p/blog-page.html'>Sobre</a></li>
 
-					<ul class="cl-effect-16">
-						<li><a class="active" href="index.html" data-hover="Início">Início</a></li>
-						<li><a href="about.html" data-hover="Sobre">Sobre</a></li>
+</ul>
+<div class='clr'></div>
+</div>
+</div>
+</div></div>
 
+</header>
+<div class='clr'></div>
+<div class='ct-wrapper'>
+<div class='outer-wrapper'>
+<div class='main-wrapper'>
+<div class='content section' id='content'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
 
-					</ul>
-					<!-- script-for-nav -->
-					<script>
-						$( "span.menu" ).click(function() {
-						  $( ".top-menu ul" ).slideToggle(300, function() {
-							// Animation complete.
-						  });
-						});
-					</script>
-				<!-- script-for-nav -->
-<!--					<ul class="side-icons">
-							<li><a class="fb" href="#"></a></li>
-							<li><a class="twitt" href="#"></a></li>
-							<li><a class="goog" href="#"></a></li>
-							<li><a class="drib" href="#"></a></li>
-					   </ul>-->
-			    </div>
-			</div>
-            <?php foreach ($posts as $post): ?>
-           <div class="col-md-9 main">
-		<!--banner-section-->
-		<div class="banner-section">
-                    <h3 class="tittle"> <img src="../../app/webroot/img/logo.png"></h3>
-
-			   <!--//banner-->
-			  <!--/top-news-->
-			  <div class="top-news">
-                              <?php foreach ($posts as $post): ?>
-                              <div class="top-inner" style="background-color: #ffffff;">
-					<div class="col-md-12 top-text ">
-                                            <h2 class="top">
-                                                <?php  echo $this->Html->link($post['Post']['titulo'],
-array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
-                                             </h2>
-                                             <br>
-						<a href="single.html"><img src="../../app/webroot/img/upload/full/<?php echo $post['Post']['imagem'] ?>" class="img-responsive" alt=""></a>
-                                                <p   >
-						  <?php echo $post['Post']['corpo']  ?>
-                                               </p>
-                                              <p><?php echo date("d-m-Y",strtotime($post['Post']['created']))   ?> em <?php echo $post['Categoria']['nome']  ?> 
-                                                  <a  class="comentar" id="<?php echo $post['Post']['id'] ?>" ><span class="glyphicon glyphicon-comment"></span><?php echo count($post['Comentario'])  ?> </a>
-                                                  <a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a>
-                                                  <a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
-                                              <div class="response"></div>	
-					
-                                              <div class="visibilidade" id="mostrar<?php echo $post['Post']['id'] ?>">          
-                                        <h4>Comentários</h4>
-					<div class="media response-info">
-						
-					 <?php foreach ($post['Comentario'] as $comentariospost): ?>	
-                                              <div class="media-body response-text-right">
-							
-							<ul>
-								<li><?php echo date("d-m-Y",strtotime($comentariospost['created']))   ?></li>
-								
-							</ul>
-							<div class="media response-info">
-								<div class="media-left response-text-left">
-									<a href="#">
-										<img class="media-object" src="../../app/webroot/img/images/co.png" alt=""/>
-									</a>
-									<h5><a href="#"><?php echo $comentariospost['nome'] ?></a></h5>
-								</div>
-								<div class="media-body response-text-right">
-									<p><?php echo $comentariospost['corpo'] ?></p>
-										
-								</div>
-								<div class="clearfix"> </div>
-                                                                <br>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-                                         <?php endforeach; ?>      
+<?php foreach ($posts as $post): ?>    
+    <div class="post hentry" itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">  
+<div class="post-body entry-content" id="post-body-2385687976621880192">
+    <div id="p2385687976621880192">
+        <div class="article_container">
+            <div class="article_header">
+                <div class="meta">
+                    <span class="article_tags">
+                        <a href="#" rel="tag"><?php echo $post['Categoria']['nome']  ?></a>
+                        
+                    </span>
+                    <span class="article_comments">
+                        <a href="2015/05/lots-of-thrill-has-been-included-in.html#comments"><?php echo count($post['Comentario'])  ?></a>
+                    </span>
+                </div>
+                <h2>
+                    <?php  echo $this->Html->link($post['Post']['titulo'],
+                                                        array('controller' => 'pages', 'action' => 'interna', $post['Post']['id'])); ?>
+                </h2>
+                <div class="meta post_meta">
+                    <span class="author">postado por  <a href="">Isto é</a>
+                    </span>
+                    <span class="date">em <?php echo date("d-m-Y",strtotime($post['Post']['created']))   ?></span>
+                </div>
+            </div>
+            <div class="post-media">
+                     <?php if ($post['Post']['imagem'] != "" ) { ?>
+                         <a href="" class="article_img" ><img src="../../app/webroot/img/upload/full/<?php echo $post['Post']['imagem'] ?>" ></a>
+                     <?php } ?>
+                   
+            </div>
+            <div class="article_excerpt">
+                <p> <?php echo $post['Post']['corpo']  ?></p>
+             </div>
+        </div>
+    </div>
+    </div>  
+<div class="article_footer clearfix">
+<div class="article_read_mre meta">
+    <!-- <span><a class="comentar" id="<?php echo $post['Post']['id'] ?>" >  Comentar <i class="fa fa-comment"></i></a></span> -->
+    <div class="visibilidade" id="mostrar<?php echo $post['Post']['id'] ?>">          
+        <BR>
+        <h3>Comentários</h3>
+        <div class="media response-info">
+                        
+            <?php foreach ($post['Comentario'] as $comentariospost): ?> 
+                <div class="media-body response-text-right">
+                    <ul>
+                                                           
+                         <li><?php echo date("d-m-Y",strtotime($comentariospost['created']))   ?>
+                         </li>
+                                                            
+                    </ul>
+                        <div class="media response-info">
+                                <div class="media-left response-text-left">
+                                    <a href="#">
+                                        <img class="media-object" src="../../app/webroot/img/images/co.png" alt=""/>
+                                    </a>
+                                    
+                                </div>
+                                <div class="media-body response-text-right">
+                                    <p><?php echo $comentariospost['corpo'] ?></p>
+                                                                    
+                                </div>
+                                <div class="clearfix"> 
+                                <h1><a style="font-size: 12px; padding-left: 25px;" href="#"> <?php echo $comentariospost['nome'] ?></a></h1>
+                                </div>
+                                <br>
+                        </div>
+                </div>
+                <div class="clearfix"> </div>
+                                                   
+            <?php endforeach; ?>      
                                                 
-					</div>
-					
-				
-                                              <div class="coment-form">
-                                                  <h4>Enviar Comentário</h4>
-                                              <?php 
-                                               echo $this->Form->create('Comentario', array(
-                                                    'inputDefaults' => array(
-                                                        'label' => false
+         </div>
+                    
+                
+        <div class="coment-form esconder">
+            <h3>Enviar Comentário</h3>
+            <BR>
+            <?php 
+           // $nomeform = "form" . $post['Post']['id'];
+            echo $this->Form->create('Comentario', array(
+                'inputDefaults' => array(
+                    'label' => false
                                                         
-                                                    )
-                                                ));
-                                                echo $this->Form->input('nome',['placeholder' => 'Nome']); 
+                ), 'id' => "form" . $post['Post']['id'] , 'class' => 'form'
+            ));
+            echo $this->Form->input('nome',['placeholder' => 'Nome' , 'class' => 'form-group inputbranco', 'size' => '50']); 
                                                 
-                                                echo $this->Form->input('email',['placeholder' => 'Email']);
-                                                echo $this->Form->input('corpo',['placeholder' => 'Mensagem']);
-                                                echo $this->Form->hidden('post_id', array('value' => $post['Post']['id']));
-                                                echo $this->Form->end('Enviar');
-                                              //  echo $this->Form->end('Enviar');
-                                                //echo $this->Js->submit('Enviar', array('update' => '#response')));
+            echo $this->Form->input('email',['placeholder' => 'Email', 'class' => 'form-group inputbranco', 'size' => '80']);
+            echo $this->Form->input('corpo',['placeholder' => 'Mensagem', 'class' => 'form-group inputbranco ', 'type' => 'textarea', 'cols' => '90']);
+            echo $this->Form->hidden('post_id', array('value' => $post['Post']['id']));
+            echo $this->Form->end('Enviar');
+            //  echo $this->Form->end('Enviar');
+            //echo $this->Js->submit('Enviar', array('update' => '#response')));
                                              
-                                                echo "<div id='response'></div>";
+            echo "<div class='response'></div>";
 
                                                           
                                                           ?>
                                                   
-                                            </div>                
-                                              </div>
-					 </div>
+        </div>                
+  </div>
+                     
+    
+</div>
+</div>
 
-					 <div class="clearfix"> </div>
-				 </div>
-                              <br>
-                               <?php endforeach; ?>
-                              <span id="paginar">Ver mais</span> 
-	            </div>
-					<!--//top-news-->
-		     </div>
-			<!--//banner-section-->
-			<div class="banner-right-text">
-			 <h3 class="tittle">News  <i class="glyphicon glyphicon-facetime-video"></i></h3>
-			<!--/general-news-->
-			 <div class="general-news">
-				<div class="general-inner">
-					<div class="general-text">
-						 <a href="single.html"><img src="../../app/webroot/img/gen1.jpg" class="img-responsive" alt=""></a>
-						    <h5 class="top"><a href="single.html">Consetetur sadipscing elit</a></h5>
-							<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam eratsed diam justo duo dolores rebum.</p>
-						    <p>On Jun 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
-					 </div>
-					 <div class="edit-pics">
-							      <div class="editor-pics">
-										 <div class="col-md-3 item-pic">
-										   <img src="../../app/webroot/img/f4.jpg" class="img-responsive" alt="">
+<div style="clear: both;"></div>
+</div>
+    
+<?php endforeach; ?>
+<div id="resultsDiv"> </div>
 
-										   </div>
-											<div class="col-md-9 item-details">
-												<h5 class="inner two"><a href="single.html">New iPad App to simulate your Guitar</a></h5>
-												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>Feb 22, 2015 <a href="#"><i class="glyphicon glyphicon-comment"></i>0 </a></div>
-											 </div>
-											<div class="clearfix"></div>
-										</div>
-										<div class="editor-pics">
-										 <div class="col-md-3 item-pic">
-										   <img src="../../app/webroot/img/f1.jpg" class="img-responsive" alt="">
+</div>
 
-										   </div>
-											<div class="col-md-9 item-details">
-												<h5 class="inner two"><a href="single.html">New iPad App to simulate your Guitar</a></h5>
-												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>Feb 22, 2015 <a href="#"><i class="glyphicon glyphicon-comment"></i>0 </a></div>
-											 </div>
-											<div class="clearfix"></div>
-										</div>
-										<div class="editor-pics">
-										 <div class="col-md-3 item-pic">
-										   <img src="../../app/webroot/img/f1.jpg" class="img-responsive" alt="">
+<div class='blog-pager' id='blog-pager'>
 
-										   </div>
-											<div class="col-md-9 item-details">
-												<h5 class="inner two"><a href="single.html">New iPad App to simulate your Guitar</a></h5>
-												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>Feb 22, 2015 <a href="#"><i class="glyphicon glyphicon-comment"></i>0 </a></div>
-											 </div>
-											<div class="clearfix"></div>
-										</div>
-										<div class="editor-pics">
-										 <div class="col-md-3 item-pic">
-										   <img src="../../app/webroot/img/f4.jpg" class="img-responsive" alt="">
+<!-- <span style="margin-left: 10x;" class="article_read_mre meta btn btn-info btn-lg" id="paginar"> Leia Mais</span> -->
 
-										   </div>
-											<div class="col-md-9 item-details">
-												<h5 class="inner two"><a href="single.html">New iPad App to simulate your Guitar</a></h5>
-												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>Feb 22, 2015 <a href="#"><i class="glyphicon glyphicon-comment"></i>0 </a></div>
-											 </div>
-											<div class="clearfix"></div>
-										</div>
-									</div>
-								<div class="media">
-								 <h3 class="tittle media">Media <i class="glyphicon glyphicon-floppy-disk"></i></h3>
-								  <div class="general-text two">
-									 <a href="single.html"><img src="../../app/webroot/img/gen3.jpg" class="img-responsive" alt=""></a>
-										<h5 class="top"><a href="single.html">Consetetur sadipscing elit</a></h5>
-										<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam eratsed diam justo duo dolores rebum.</p>
-										<p>On Jun 27 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
-								  </div>
-					         </div>
-					    <div class="general-text two">
-						    <a href="single.html"><img src="../../app/webroot/img/gen2.jpg" class="img-responsive" alt=""></a>
-						    <h5 class="top"><a href="single.html">Consetetur sadipscing elit</a></h5>
-							<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore dolore magna aliquyam eratsed diam justo duo dolores rebum.</p>
-						    <p>On Jun 27 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
-					    </div>
-				 </div>
-			</div>
-			<!--//general-news-->
-			<!--/news-->
-			<!--/news-->
-		 </div>
-			<div class="clearfix"> </div>
-	<!--/footer-->
-	      <div class="footer">
-				 <div class="footer-top">
-				    <div class="col-md-4 footer-grid">
-					     
-				    </div>
-					  <div class="col-md-4 footer-grid">
-					    
-				    </div>
-					<div class="col-md-4 footer-grid">
-					   <ul class="side-icons">
-							<li><a class="fb" href="#"></a></li>
-							<li><a class="twitt" href="#"></a></li>
-							<li><a class="goog" href="#"></a></li>
-							<li><a class="drib" href="#"></a></li>
-					   </ul>
-				    </div>
-					<div class="clearfix"> </div>
-				 </div>
-	     </div>
-		<div class="copy">
-		    <p>&copy; 2016 Blogger. All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a> </p>
-		</div>
-	 
-         <!--<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>-->
-	</div>
-            <?php endforeach; ?>
-        </div>	
 
+<a class='home-link' href='index.html'>Home</a>
+</div>
+<div class='clear'></div>
+</div></div>
+</div><!-- /main-wrapper -->
+<div class='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'>
+    
+    <div class='widget PopularPosts' id='PopularPosts100'>
+        <h2>Postagens Populares</h2>
+        <div class='widget-content popular-posts'>
+        <ul>
+        <?php foreach ($postmaiscomentados as $postsmc) : ?>
+        <li>
+        <div class='item-content'>
+        <div class='item-thumbnail'>
+        <?php if ($post['Post']['imagem'] != "" ) { ?>
+                         <a href="" class="article_img" ><img src="../../app/webroot/img/upload/full/<?php echo $postsmc['Post']['imagem'] ?>" ></a>
+        <?php } ?>
+        </div>
+        <div class='item-title'><a href='2015/05/lots-of-thrill-has-been-included-in.html'><?php echo $postsmc['Post']['titulo'] ; ?></a></div>
+        <div class='item-snippet'>  <?php //echo ($postsmc) ; ?> </div>
+        </div>
+        <div style='clear: both;'></div>
+        </li>
+         <?php endforeach; ?>
+
+
+
+
+
+        </ul>
+        </div>
+    </div>
+    
+<div class='widget HTML' id='HTML1'>
+
+<div class='clear'></div>
+
+
+</div>
+<div class='widget Label' id='Label2'>
+<h2>Categorias</h2>
+<div class='widget-content list-label-widget-content'>
+<ul>
+    <?php foreach ($categorias as $categoria): ?>  
+<li>
+<a dir='ltr' href='search/label/Console.html'><?php echo $categoria['Categoria']['nome'] ;?>  </a>
+<li>  
+    <?php endforeach  ?>  
+</ul>
+</div>
+</div>
+<div class='widget HTML' id='HTML4'>
+
+
+</div></div>
+</div><!-- /sidebar-wrapper -->
+<div class='clr'></div>
+</div><!-- /outer-wrapper -->
+</div><!-- /ct-wrapper -->
+<div id='footer-wrapper'>
+<div class='ct-wrapper'>
+<div class='footer-widget'>
+<div class='textwidget'>
+<p class='attribution'>Copyright <a href='index.html'>Gamer</a> | Designed by <a href='http://www.veethemes.com/' id='attri_bution'>VeeThemes.com</a>.
+<br/> 
+Proudly present by <a href='#'>Blogger.</a>
+</p>
+</div>
+</div>
+</div><!-- footer-credits -->
+</div><!-- /ct-wrapper -->
+<input type="hidden" id="pulo" name="pulo" value="2">
+<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 <script> 
         // wait for the DOM to be loaded 
         $(document).ready(function() { 
-            $('.visibilidade').hide();
+            //$().UItoTop({ easingType: 'easeOutQuart' });
+           // $('.visibilidade').hide();
+            $( '.inputbranco' ).val( "" );
             
             $('.comentar').click(function(){
                 $('#mostrar'+this.id).toggle();
                
             });
             
-            $('#ComentarioDisplayForm').submit(function(){ 
+           
+            $('#paginar').click(function(){ 
               
+                //serialize form data 
+                //var formData = $(this).serialize(); 
+                ////get form action 
+                var pulo = $('#pulo').val();   
+               
+               // alert(pulo);
+                var formUrl = "pages/paginar/"+pulo;
+                
+                $('#pulo').val(parseInt(pulo) + 2); 
+                
+                $.ajax({ 
+                    type: 'POST', 
+                    url: formUrl, 
+                  //  data: formData, 
+                    success: function(data,textStatus,xhr){
+                     //alert();
+            $("#resultsDiv").append("<div id=resultsDiv"+pulo+"></div>")
+                    $(data).insertBefore( '#resultsDiv'+pulo );
+                     // $( '#resultsDiv'  ).before( data );
+                     // $(  ).html( data );
+                      //  alert(data);
+                         
+                    }, 
+                    error: function(xhr,textStatus,error){ alert(textStatus + error);} 
+                }); return false; }); 
+            
+            $('.form').submit(function(){ 
+                $( ".response" ).show();
+              //alert();
                 //serialize form data 
                 var formData = $(this).serialize(); 
                 ////get form action 
-                var formUrl = "Comentarios/add"
+                var formUrl = "../../Comentarios/add"
               
                 $.ajax({ 
                     type: 'POST', 
                     url: formUrl, 
                     data: formData, 
                     success: function(data,textStatus,xhr){ 
-                        $( '#response' ).html( data );
-                        $( '#ComentarioNome' ).val( "" );
-                        $( '#ComentarioEmail' ).val( "" );
-                        $( '#ComentarioCorpo' ).val( "" );
-                        $( '#ComentarioPostId' ).val( "" );
+                        $( '.response' ).html( data );
+                        $( '.inputbranco' ).val( "" );
+                        $( ".response" ).slideUp( 2800 ).delay( 800 );
                          
                     }, 
                     error: function(xhr,textStatus,error){ alert(textStatus + error);} 
-                });	return false; }); 
+                }); return false; }); 
             // bind 'myForm' and provide a simple callback function 
-//            $('#ComentarioDisplayForm').ajaxForm(function() { 
+//            $('#../../../../app/').ajaxForm(function() { 
 //                alert("Thank you for your comment!"); 
 //            }); 
         
         }); 
     </script> 
 </body>
+
+<!-- Mirrored from gamer-veethemes.blogspot.com.br/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Mar 2016 19:57:49 GMT -->
 </html>

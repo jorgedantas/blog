@@ -44514,3 +44514,34 @@ Stack Trace:
 #3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-04-09 15:59:54 Error: [MissingControllerException] Controller class PController could not be found.
+Exception Attributes: array (
+  'class' => 'PController',
+  'plugin' => NULL,
+)
+Request URL: /blog/p/blog-page.html
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-09 16:22:04 Error: [MissingActionException] Action PagesController::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'app',
+)
+Request URL: /blog/pages/app/webroot/bootstrap/3.3.1/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-09 16:36:12 Error: [MissingActionException] Action PagesController::Comentarios() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'Comentarios',
+)
+Request URL: /blog/pages/Comentarios/add
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

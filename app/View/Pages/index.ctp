@@ -187,8 +187,8 @@ SHERIFF DO SERIDÓ
         <li>
         <div class='item-content'>
         <div class='item-thumbnail'>
-        <?php if ($post['Post']['imagem'] != "" ) { ?>
-                         <a href="" class="article_img" ><img src="app/webroot/img/upload/full/<?php echo $post['Post']['imagem'] ?>" ></a>
+        <?php if ($postsmc['Post']['imagem'] != "" ) { ?>
+                         <a href="" class="article_img" ><img src="app/webroot/img/upload/full/<?php echo $postsmc['Post']['imagem'] ?>" ></a>
         <?php } ?>
         </div>
         <div class='item-title'><a href='2015/05/lots-of-thrill-has-been-included-in.html'><?php echo $postsmc['Post']['titulo'] ; ?></a></div>

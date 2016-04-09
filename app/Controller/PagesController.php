@@ -21,6 +21,35 @@ class PagesController extends AppController  {
            $this->set('posts', $todosposts); 
           
         }
+        public function interna ($id ) {
+           
+
+
+           $posts = ClassRegistry::init('Post');
+           $posts2 = ClassRegistry::init('Post');
+           $categoria = ClassRegistry::init('Categoria');
+
+           $todosposts = $posts->find('all',array(
+                    'conditions' => array('post.id' => $id)
+                ));
+           //pr ($todosposts) ;
+
+           //exit();
+
+           $postmaiscomentados = $posts2->find('all',
+                   array('limit'=> '2','order' => array('Post.created' => 'asc'))
+                    
+                   );
+
+           $categorias = $categoria->find('all',array(array('Categoria.nome' => 'asc')));
+       
+           $this->set('posts', $todosposts);    
+           
+           $this->set('postmaiscomentados', $postmaiscomentados);   
+           
+           $this->set('categorias', $categorias);   
+        
+        }
         public function index() {
            
            $posts = ClassRegistry::init('Post');
@@ -121,17 +150,5 @@ class PagesController extends AppController  {
 		}
 	}
         
-        public function interna ($id ) {
-           // pr($id)
-            //$path = 'interna()';
-            $posts = ClassRegistry::init('Post');
-              // pr($posts);
-                $todosposts = $posts->find('all',array(
-                    'conditions' => array('post.id' => $id)
-                ));
-                        
-                
-            $this->set('posts',$todosposts);
         
-        }
 }

@@ -28,7 +28,7 @@ class ComentariosController extends AppController {
     public $components = array('RequestHandler');
     
      public function add() {
-      
+        //echo $this->data ;
         if(!empty($this->data)){ 
              if($this->Comentario->save($this->data)){	
               //  echo 'Comentário Enviado !!!'; 

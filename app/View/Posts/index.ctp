@@ -1,10 +1,18 @@
 
-
-<h1> <?php echo $this->Html->link('+ Adicionar Postagem',
+<ul>
+<li>
+<h1> <?php echo $this->Html->link('Adicionar Postagem',
 array('controller' => 'posts', 'action' => 'add')); ?></h1> 
-
-<h1> <?php echo $this->Html->link('+ Adicionar Categoria',
+</li>
+<li>
+<h1> <?php echo $this->Html->link('Adicionar Categoria',
 array('controller' => 'Categorias', 'action' => 'add')); ?></h1> 
+</li>
+<li>
+<h1> <?php echo $this->Html->link('Visualizar Comentarios',
+array('controller' => 'Comentarios', 'action' => 'index')); ?></h1> 
+</li>
+</ul>
 <table>
     <tr>
         <th>Id</th>

@@ -14,6 +14,7 @@ SHERIFF DO SERIDÓ
 <!-- <link type='text/css' rel='stylesheet' href='www.blogger.com/static/v1/widgets/3645911276-widget_css_bundle.css' />
 <link type='text/css' rel='stylesheet' href='www.blogger.com/dyn-css/authorizationc1b4.css?targetBlogID=1457031721144529915&amp;zx=4ad2f874-b33f-49c0-9620-9557180e699c' /> -->
 <link href='app/webroot/css/principal.css' rel='stylesheet' type='text/css'/>
+<link href='app/webroot/jquery.share.css' rel='stylesheet' type='text/css'/>
 
 </head>
 <!--<body>-->
@@ -22,7 +23,7 @@ SHERIFF DO SERIDÓ
 <div class='ct-wrapper'>
 <div class='header section' id='header'><div class='widget Header' id='Header1'>
 <div id='header-inner'>
-<a class='logo' href='index.html' style='display: inline-block'>
+<a class='logo' href='/blog' style='display: inline-block'>
 <img alt='Gamer' id='Header1_headerimg' src='app/webroot/img/logo3.png' style='display: block'/>
 </a>
 </div>
@@ -32,8 +33,8 @@ SHERIFF DO SERIDÓ
 <div class='nav-menu'>
 <div class='ct-wrapper'>
 <ul class='blog_menus'>
-<li><a href='index.html'>Início</a></li>
-<li><a href='p/blog-page.html'>Sobre</a></li>
+<li><a href='/blog'>Início</a></li>
+<li><a href='/blog/pages/sobre'>Sobre</a></li>
 
 </ul>
 <div class='clr'></div>
@@ -85,7 +86,8 @@ SHERIFF DO SERIDÓ
              </div>
         </div>
     </div>
-    </div>  
+    </div>
+
 <div class="article_footer clearfix">
 <div class="article_read_mre meta">
     <span><a class="comentar" id="<?php echo $post['Post']['id'] ?>" >  Comentar <i class="fa fa-comment"></i></a></span>
@@ -159,6 +161,8 @@ SHERIFF DO SERIDÓ
 </div>
 
 <div style="clear: both;"></div>
+
+<div class="addthis_sharing_toolbox " data-url="http://sheriffdoserido.com.br/blog/pages/interna/<?php echo $post['Post']['id']; ?>" data-title="<?php echo $post['Post']['titulo']; ?>"></div>
 </div>
     
 <?php endforeach; ?>
@@ -218,16 +222,30 @@ SHERIFF DO SERIDÓ
 <ul>
     <?php foreach ($categorias as $categoria): ?>  
 <li>
-<a dir='ltr' href='search/label/Console.html'><?php echo $categoria['Categoria']['nome'] ;?>  </a>
+<a dir='ltr' href='/blog/pages/categ/<?php echo $categoria['Categoria']['id'] ;?>'><?php echo $categoria['Categoria']['nome'] ;?>  </a>
 <li>  
     <?php endforeach  ?>  
 </ul>
 </div>
 </div>
+
+
+<!-- 
+<div class='widget Label' id='Label2'>
+<h2>Twitter</h2>
+<div class='widget-content list-label-widget-content'>
+
+</div>
+</div> -->
+
+
 <div class='widget HTML' id='HTML4'>
 
 
-</div></div>
+</div>
+</div>
+
+
 </div><!-- /sidebar-wrapper -->
 <div class='clr'></div>
 </div><!-- /outer-wrapper -->
@@ -236,9 +254,8 @@ SHERIFF DO SERIDÓ
 <div class='ct-wrapper'>
 <div class='footer-widget'>
 <div class='textwidget'>
-<p class='attribution'>Copyright <a href='index.html'>Gamer</a> | Designed by <a href='http://www.veethemes.com/' id='attri_bution'>VeeThemes.com</a>.
+<p class='attribution'>Copyright <a href='/blog'>SHERIFF</a> | Designed by <a href='http://www.jorgedantas.tech' id='attri_bution'>jorgedantas.tech</a>.
 <br/> 
-Proudly present by <a href='#'>Blogger.</a>
 </p>
 </div>
 </div>
@@ -246,7 +263,14 @@ Proudly present by <a href='#'>Blogger.</a>
 </div><!-- /ct-wrapper -->
 <input type="hidden" id="pulo" name="pulo" value="2">
 <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+<script  src="app/webroot/jquery.share.js" ></script>
+
+
 <script> 
+
+
+
+
         // wait for the DOM to be loaded 
         $(document).ready(function() { 
             //$().UItoTop({ easingType: 'easeOutQuart' });
@@ -314,6 +338,9 @@ Proudly present by <a href='#'>Blogger.</a>
         
         }); 
     </script> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57098952e21f0ea6"></script>
+
 </body>
 
 <!-- Mirrored from gamer-veethemes.blogspot.com.br/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Mar 2016 19:57:49 GMT -->

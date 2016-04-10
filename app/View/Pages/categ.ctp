@@ -88,7 +88,7 @@ SHERIFF DO SERIDÓ
     </div>  
 <div class="article_footer clearfix">
 <div class="article_read_mre meta">
-    <!-- <span><a class="comentar" id="<?php echo $post['Post']['id'] ?>" >  Comentar <i class="fa fa-comment"></i></a></span> -->
+    <span><a class="comentar" id="<?php echo $post['Post']['id'] ?>" >  Comentar <i class="fa fa-comment"></i></a></span>
     <div class="visibilidade" id="mostrar<?php echo $post['Post']['id'] ?>">          
         <BR>
         <h3>Comentários</h3>
@@ -114,7 +114,7 @@ SHERIFF DO SERIDÓ
                                                                     
                                 </div>
                                 <div class="clearfix"> 
-                                <h1><a style="font-size: 12px; padding-left: 25px;" href="#"> <?php echo $comentariospost['nome'] ?></a></h1>
+                                <h1><a style="font-size: 12px; padding-left: 25px;" href="#"> <u><?php echo $comentariospost['nome'] ?> </u></a></h1>
                                 </div>
                                 <br>
                         </div>
@@ -168,7 +168,7 @@ SHERIFF DO SERIDÓ
 
 <div class='blog-pager' id='blog-pager'>
 
-<!-- <span style="margin-left: 10x;" class="article_read_mre meta btn btn-info btn-lg" id="paginar"> Leia Mais</span> -->
+<span style="margin-left: 10x;" class="article_read_mre meta btn btn-info btn-lg" id="paginar"> Leia Mais</span>
 
 
 <a class='home-link' href='index.html'>Home</a>
@@ -249,7 +249,7 @@ SHERIFF DO SERIDÓ
         // wait for the DOM to be loaded 
         $(document).ready(function() { 
             //$().UItoTop({ easingType: 'easeOutQuart' });
-           // $('.visibilidade').hide();
+            $('.visibilidade').hide();
             $( '.inputbranco' ).val( "" );
             
             $('.comentar').click(function(){
@@ -292,7 +292,7 @@ SHERIFF DO SERIDÓ
                 //serialize form data 
                 var formData = $(this).serialize(); 
                 ////get form action 
-                var formUrl = "../../Comentarios/add"
+                var formUrl = "Comentarios/add"
               
                 $.ajax({ 
                     type: 'POST', 
@@ -307,7 +307,7 @@ SHERIFF DO SERIDÓ
                     error: function(xhr,textStatus,error){ alert(textStatus + error);} 
                 }); return false; }); 
             // bind 'myForm' and provide a simple callback function 
-//            $('#../../../../app/').ajaxForm(function() { 
+//            $('#ComentarioDisplayForm').ajaxForm(function() { 
 //                alert("Thank you for your comment!"); 
 //            }); 
         

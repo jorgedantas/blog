@@ -44545,3 +44545,118 @@ Stack Trace:
 #1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-04-09 16:43:33 Error: [MissingControllerException] Controller class PController could not be found.
+Exception Attributes: array (
+  'class' => 'PController',
+  'plugin' => NULL,
+)
+Request URL: /blog/p/blog-page.html
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-09 16:43:39 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /blog/index.html
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-09 16:57:00 Error: [MissingControllerException] Controller class PController could not be found.
+Exception Attributes: array (
+  'class' => 'PController',
+  'plugin' => NULL,
+)
+Request URL: /blog/p/blog-page.html
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-10 00:42:02 Error: [MissingControllerException] Controller class 1Controller could not be found.
+Exception Attributes: array (
+  'class' => '1Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog/1
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-10 00:42:06 Error: [MissingControllerException] Controller class 2Controller could not be found.
+Exception Attributes: array (
+  'class' => '2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog/2
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-10 00:42:13 Error: [MissingControllerException] Controller class 25Controller could not be found.
+Exception Attributes: array (
+  'class' => '25Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog/25
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-10 00:42:34 Error: Fatal Error (4): syntax error, unexpected '$posts' (T_VARIABLE) in [C:\xampp\htdocs\blog\app\Controller\PagesController.php, line 86]
+2016-04-10 00:42:34 Error: [FatalErrorException] syntax error, unexpected '$posts' (T_VARIABLE)
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 86, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-10 00:43:54 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /blog/index/2
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-10 00:43:56 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /blog/index/25
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-10 00:50:38 Error: [MissingActionException] Action PagesController::cat() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'cat',
+)
+Request URL: /blog/pages/cat/25
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-10 00:50:46 Error: [MissingActionException] Action PagesController::cat() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'cat',
+)
+Request URL: /blog/pages/cat/25
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-10 00:50:49 Error: [MissingActionException] Action PagesController::cat() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'cat',
+)
+Request URL: /blog/pages/cat/26
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

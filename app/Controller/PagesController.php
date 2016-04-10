@@ -11,7 +11,7 @@ class PagesController extends AppController  {
         public function beforeFilter() {
             parent::beforeFilter();
         // Allow users to register and logout.
-            $this->Auth->allow('display','interna','index','paginar','layout02');
+            $this->Auth->allow('display','interna','index','paginar','layout02','categ','sobre');
         }
         
         public function paginar($pulo ) {
@@ -50,8 +50,10 @@ class PagesController extends AppController  {
            $this->set('categorias', $categorias);   
         
         }
-        public function index() {
+        public function sobre () {
            
+
+
            $posts = ClassRegistry::init('Post');
            $posts2 = ClassRegistry::init('Post');
            $categoria = ClassRegistry::init('Categoria');
@@ -76,10 +78,67 @@ class PagesController extends AppController  {
            $this->set('postmaiscomentados', $postmaiscomentados);   
            
            $this->set('categorias', $categorias);   
+        
+        }
+        public function index() {
+           
+           $posts = ClassRegistry::init('Post');
+           $posts2 = ClassRegistry::init('Post');
+           $categoria = ClassRegistry::init('Categoria');
+
+           $todosposts = $posts->find('all',
+                   array('limit'=> '2','order' => array('Post.created' => 'desc'))
+                    
+                   );
+
+           //pr ($todosposts) ;
+
+           //exit();
+
+           $postmaiscomentados = $posts2->find('all',
+                   array('limit'=> '2','order' => array('Post.created' => 'asc'))
+                    
+                   );
+
+           $categorias = $categoria->find('all',array(array('Categoria.nome' => 'asc')));
+       
+           $this->set('posts', $todosposts);    
+           
+           $this->set('postmaiscomentados', $postmaiscomentados);   
+           
+           $this->set('categorias', $categorias);   
 
          
         }
         
+
+        public function categ($cat) {
+           //pr ($cat) ;
+      
+           $posts = ClassRegistry::init('Post');
+           $posts2 = ClassRegistry::init('Post');
+           $categoria = ClassRegistry::init('Categoria');
+
+          
+           $todosposts = $posts->find('all',array(
+                    'conditions' => array('categoria.id' => $cat)
+                ));
+           
+            $postmaiscomentados = $posts2->find('all',
+                   array('limit'=> '2','order' => array('Post.created' => 'asc'))
+                    
+                   );
+
+           $categorias = $categoria->find('all',array(array('Categoria.nome' => 'asc')));
+       
+           $this->set('posts', $todosposts);    
+           
+           $this->set('postmaiscomentados', $postmaiscomentados);   
+           
+           $this->set('categorias', $categorias); 
+
+         }
+
         public function layout02() {
             
            $posts = ClassRegistry::init('Post');

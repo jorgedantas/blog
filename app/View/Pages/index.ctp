@@ -24,7 +24,11 @@ SHERIFF DO SERIDÓ
 <div class='header section' id='header'><div class='widget Header' id='Header1'>
 <div id='header-inner'>
 <a class='logo' href='/blog' style='display: inline-block'>
+<img alt='Gamer' id='Header1_headerimg' src='app/webroot/img/logo.png' style='display: block'/>
+<img alt='Gamer' id='Header1_headerimg' src='app/webroot/img/logo1.png' style='display: block'/>
+<img alt='Gamer' id='Header1_headerimg' src='app/webroot/img/logo2.png' style='display: block'/>
 <img alt='Gamer' id='Header1_headerimg' src='app/webroot/img/logo3.png' style='display: block'/>
+<img alt='Gamer' id='Header1_headerimg' src='app/webroot/img/logo4.png' style='display: block'/>
 </a>
 </div>
 </div></div>
@@ -35,6 +39,8 @@ SHERIFF DO SERIDÓ
 <ul class='blog_menus'>
 <li><a href='/blog'>Início</a></li>
 <li><a href='/blog/pages/sobre'>Sobre</a></li>
+
+<li><a target="_blank" href='/blog/posts/'> -> Temporário Inserir Postagem Login : novo ; Senha: novo <- </a></li>
 
 </ul>
 <div class='clr'></div>
@@ -172,7 +178,7 @@ SHERIFF DO SERIDÓ
 
 <div class='blog-pager' id='blog-pager'>
 
-<span style="margin-left: 10x;" class="article_read_mre meta btn btn-info btn-lg" id="paginar"> Leia Mais</span>
+<span style="margin-left: 10x;" class="article_read_mre meta btn btn-success btn-lg" id="paginar"> Leia Mais</span>
 
 
 <a class='home-link' href='index.html'>Home</a>

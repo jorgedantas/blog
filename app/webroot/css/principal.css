@@ -109,7 +109,7 @@ display: none;
 Header CSS
 ******************************************/
 header#blog_header {
-background-color: #101010;
+background-color: #518415;
 position: relative;
 width: 100%;
 display: inline-block;
@@ -158,7 +158,7 @@ transition:all .2s ease-in-out;
 -webkit-transition:all .2s ease-in-out;
 }
 .nav-menu li:first-child a, .nav-menu li a:hover {
-border-bottom-color: #713800;
+border-bottom-color: #518415;
 background-color: #323232;
 }
 ul.sub-menu li {
@@ -216,7 +216,7 @@ z-index: 1000;
 padding: 0 30px;
 }
 span.cat a {
-background:#713800;
+background:#518415;
 color: #fff;
 text-transform: uppercase;
 font-size: 10px;
@@ -294,7 +294,7 @@ font-size: 12px;
 }
 span.article_tags a:nth-child(n+4){display:none;}
 .meta span.article_tags a{
-background:#713800;
+background:#518415;
 color: #fff;
 padding: 3px 6px;
 line-height: 1;
@@ -352,7 +352,7 @@ border-style: solid;
 border-left: 5px solid transparent;
 border-right: 5px solid transparent;
 border-bottom-width: 0;
-border-top: 8px solid #713800;
+border-top: 8px solid #518415;
 bottom: -6px;
 content: '';
 left: 50%;
@@ -363,7 +363,7 @@ span.article_comments a {
 display: block;
 width: 23px;
 height: 23px;
-background-color: #713800;
+background-color: #518415;
 text-align: center;
 color: #fff;
 }
@@ -420,7 +420,7 @@ width: 100%;
 Post Highlighter CSS
 ******************************************/
 blockquote {
-border-left: 5px solid #713800;
+border-left: 5px solid #518415;
 padding: 15px 0;
 padding-left: 20px;
 font-size: 14px;
@@ -441,7 +441,7 @@ letter-spacing: 1px;
 z-index: 1;
 color: #fff;
 }
-.sidebar h2:after,.sidebar h2:before{content:"";position:absolute;display:block;width:3px;height:100%;top:0;left:0px;background:#713800;}
+.sidebar h2:after,.sidebar h2:before{content:"";position:absolute;display:block;width:3px;height:100%;top:0;left:0px;background:#518415;}
 .sidebar h2:after {width: 100%;z-index: -1;background: #333333;}
 .sidebar .widget { background: #fff; padding:0 20px; clear: both; font-size: 13px; line-height: 23px; margin: 20px 0; }
 .sidebar ul { margin: 0; padding: 0; list-style: none; }
@@ -511,8 +511,8 @@ display: none;
 }
 /***** Blogger Contact Form Widget *****/
 .contact-form-email, .contact-form-name, .contact-form-email-message, .contact-form-email:hover, .contact-form-name:hover, .contact-form-email-message:hover, .contact-form-email:focus, .contact-form-name:focus, .contact-form-email-message:focus { background: #f0f0f0; border: 1px solid #D2DADD; box-shadow: 0 1px 1px #F3F4F6 inset; max-width: 300px; color: #999; }
-.contact-form-button-submit { background: #713800; border: medium none; float: right; height: auto; margin: 10px 0 0; max-width: 300px; padding: 5px 10px; width: 100%; cursor: pointer; }
-.contact-form-button-submit:hover { background: #713800; border: none; }
+.contact-form-button-submit { background: #518415; border: medium none; float: right; height: auto; margin: 10px 0 0; max-width: 300px; padding: 5px 10px; width: 100%; cursor: pointer; }
+.contact-form-button-submit:hover { background: #518415; border: none; }
 /***** Profile Widget CSS *****/
 .author_img{
 position:relative;
@@ -734,7 +734,7 @@ border-radius: 2px 0 0 2px;
 -ms-transition: transform .2s ease-in-out;
 transition: transform .2s ease-in-out;
 }
-ul#vt_socialbox a i {background:#713800;}
+ul#vt_socialbox a i {background:#518415;}
 ul#vt_socialbox span {
 display: inline-block;
 font-size: 12px;
@@ -814,7 +814,7 @@ border-radius: 4px;
 font-size: 13px;
 letter-spacing: 2px;
 font-weight: 400;
-background: #713800;
+background: #518415;
 }
 /*------------- about profile -------*/
 .about_blog img {
